@@ -1,0 +1,696 @@
+Intent,Text
+Refusal,3. Özel bir konuyu açıklamak istemiyorum.
+Greeting,Size nasıl destek olabilirim?
+Treatment_Info,- Diyabet için alternatif tedavi yöntemleri mevcut mu?
+Goodbye,3. Görüşmek üzere!
+Disease_Info,8. Sedef rahatsızlığıyla ilgili daha fazla bilgi alabilir miyim?
+Refusal,Başka bir soru sormayı tercih etmiyorum.
+Treatment_Info,Astım için en iyi tedavi seçenekleri nelerdir?
+Greeting,Naber?
+Appointment_Info,Doktor randevusu ayarlama konusunda bana yardımcı olabilir misiniz?
+Symptoms,Karnımda iki gündür devam eden bir ağrı var.
+Greeting,"- Merhaba, kendinizi nasıl buluyorsunuz?"
+Appointment_Info,"Hemen gidebileceğim bir hastane arıyorum, nerede bulabilirim?"
+Greeting,Merhaba!
+Symptoms,3. Boğazımda ağrı var ve ateşim yükseldi
+Refusal,Bunu söylemek istemiyorum
+Appointment_Info,Şu anda bulunduğum yere en yakın hastane hangisi?
+Goodbye,- Sağlıklı günler dilerim
+Refusal,*   Bu konuyu şimdilik erteleyelim.
+Goodbye,- Kendinize iyi bakın
+Disease_Info,Diyabet hakkında bana bilgi verebilir misin?
+Symptoms,Baş ağrısı için ne gibi çözümler önerirsiniz?
+Refusal,* Bu benim için uygun bir konu değil.
+Goodbye,- Sonra görüşmek üzere
+Treatment_Info,7. Astım için en etkili tedavi nasıl belirlenir?
+Symptoms,3. Geçen iki gündür sürekli olarak karın ağrısı çekiyorum.
+Appointment_Info,Yakınımdaki hastaneleri bulabilir misin?
+Refusal,9. Bu cümleyi kurmak istemiyorum.
+Symptoms,8. Ateşim var ve boğazımda rahatsızlık hissediyorum
+Appointment_Info,MHRS aracılığıyla sağlık hizmeti randevusu alabilir miyim?
+Greeting,8. Hoş geldiniz
+Disease_Info,"- Migren belirtileri hakkında bilgim yok, aydınlatır mısınız beni?"
+Goodbye,Hoşça kal
+Disease_Info,8. Tansiyon yüksekliği hakkında daha fazla öğrenebilir miyim?
+Symptoms,6. Günlerdir süren öksürüğüm bir türlü azalmıyor.
+Greeting,- Merhaba
+Greeting,İyi günler!
+Refusal,"Kesinlikle, sormak istediğin başka bir soru varsa cevaplamaktan mutluluk duyarım."
+Greeting,Size nasıl yardımcı olabilirim?
+Greeting,- Günaydın
+Disease_Info,1. Hipertansiyon hakkında bilgi verir misiniz?
+Refusal,* Bu soruya cevap vermek istemiyorum.
+Treatment_Info,Diyabet tedavisinde yeni yöntemler nelerdir
+Appointment_Info,Bir doktorla randevu ayarlama süreci nasıl işliyor?
+Greeting,7. Heyooo
+Symptoms,- Ateş belirtileri gösteriyorum ve boğazım ağrılı.
+Symptoms,- Ateşlendim ve boğazımda da bir ağrı başladı.
+Goodbye,- Her şey gönlünüzce olsun
+Disease_Info,"3. Sedef hastalığı nasıl ortaya çıkar, belirtileri nelerdir?"
+Refusal,3. Bu sözleri sarf etmek istemiyorum.
+Greeting,Hoş geldiniz!
+Greeting,Nasılsınız?
+Goodbye,- Kendinize iyi bakın
+Treatment_Info,Hipertansiyonu yönetmek için ne gibi tedaviler mevcuttur?
+Goodbye,- Görüşmek üzere
+Appointment_Info,10. Doktor randevusu için nasıl organize olabilirim?
+Refusal,1. Bu konuya devam etmeyelim.
+Goodbye,"- Hoşça kal, sağlıklı ve mutlu günler dilerim"
+Goodbye,- Kendine iyi bak
+Refusal,8. Bu konuyu burada kapatmak istiyorum.
+Symptoms,8. Karnımda şiddetli bir ağrı var ve bu durum iki gündür devam ediyor.
+Goodbye,Görüşmek üzere.
+Goodbye,- Görüşmek üzere
+Disease_Info,Migrenin sebep olduğu semptomlar hakkında bilgi alabilir miyim?
+Goodbye,Şimdilik bu kadar
+Symptoms,İki gündür karnımda bir rahatsızlık hissediyorum.
+Refusal,"8. Bu konuda bilgi vermek istemiyorum, anlayışınız için teşekkürler."
+Greeting,2. Hey
+Symptoms,Dizimde şişlik ile birlikte ağrı da var.
+Goodbye,"- Hoşça kalın, sağlıcakla kalın"
+Goodbye,5. Güle güle!
+Greeting,Merhaba doktor
+Treatment_Info,Diyabet hastalığı için geliştirilen en son tedavi yöntemleri hakkında bilgi istiyorum.
+Treatment_Info,- Diyabet tedavisi için geliştirilen son teknolojiler nelerdir?
+Greeting,- Hayırlı günler
+Appointment_Info,4. En yakın sağlık kuruluşu nerede bulunuyor?
+Appointment_Info,10. Hangi hastane bana en yakın sağlık hizmetini sunabilir?
+Refusal,"Başka bir soru sormayacağım, teşekkürler."
+Appointment_Info,7. Doktora gitmek için nasıl bir görüşme planlayabilirim?
+Treatment_Info,Kan basıncını kontrol etmek için hangi adımlar atılabilir?
+Treatment_Info,Migren ağrılarımı azaltmak için hangi tedavi seçeneklerini değerlendirebilirim?
+Refusal,*   Bu konu hakkında konuşmak beni rahatsız ediyor.
+Greeting,"- Merhabalar, kendinizi nasıl hissediyorsunuz?"
+Treatment_Info,4. Hangi tedavi astım semptomları üzerinde en iyi sonuçları verir?
+Symptoms,"7. Öksürmekten bıktım, bir çözüm bulmalıyım."
+Treatment_Info,Astım için hangi tedaviler mevcut?
+Refusal,Bu konuda konuşmamayı tercih ederim.
+Appointment_Info,Bir doktorla görüşmek için nasıl randevu alabilirim?
+Disease_Info,Diyabet nedir
+Refusal,2. Bu mevzuyu değiştirelim.
+Treatment_Info,Grip olduğumda hangi ilaçları kullanabilirim?
+Treatment_Info,6. Tansiyonu dengelemek için hangi yöntemleri denemeliyim?
+Appointment_Info,Doktor randevusu ayarlama konusunda rehberliğe ihtiyacım var.
+Greeting,- Hoş geldin
+Appointment_Info,2. Göz doktoruna gitmek için randevu nasıl oluşturabilirim?
+Greeting,"Merhaba, nasılsın?"
+Appointment_Info,MHRS sistemi aracılığıyla bir randevu ayarlamak istiyorum.
+Symptoms,Dizim ağrıyor ve şişmiş durumda.
+Disease_Info,5. Yüksek tansiyon hakkında detaylı bilgi alabilir miyim?
+Goodbye,Hoşça kal
+Disease_Info,- Migrenin belirtilerine dair bilgi verir misiniz?
+Greeting,Size bugün nasıl yardımcı olabilirim?
+Treatment_Info,Grip tedavisinde kullanılan reçeteli ve reçetesiz ilaçlar hangileridir?
+Goodbye,- Yine bekleriz
+Appointment_Info,2. Acil durumlarda gitmek için en uygun hastane hangisi?
+Symptoms,İki gündür karın bölgemde ağrı hissediyorum.
+Disease_Info,Migrenin vücudumda yarattığı belirtiler nelerdir?
+Refusal,Şimdilik başka bir soru sormayacağım.
+Greeting,- Merhabalar
+Greeting,Nasılsınız
+Greeting,2. Hayırlı günler
+Goodbye,Hoşça kalın
+Treatment_Info,4. Grip için tercih edilen ilaç çeşitleri nelerdir?
+Symptoms,Ateşim var ve boğazım ağrıyor
+Disease_Info,6. Sedef hastalığıyla ilgili detaylı açıklama yapabilir misiniz?
+Refusal,10. Özel bir durumu açıklamak istemiyorum.
+Symptoms,Sürekli öksürüyorum
+Symptoms,7. Dizimde ağrı var ve şişlik fark ediyorum.
+Disease_Info,- Migrenin belirtileri hakkında bilgi alabilir miyim?
+Goodbye,Sağlıcakla kalın
+Symptoms,- Ateş problemi yaşıyorum ve boğazımda da ağrı hissediyorum.
+Goodbye,- Sağlıklı günler dilerim
+Refusal,7. Bilgi paylaşımını reddediyorum.
+Refusal,Bu konuda bilgi vermek şu anda mümkün değil.
+Greeting,Hey!
+Disease_Info,Sedef hastalığı hakkında bilgi verir misin?
+Disease_Info,"8. Diyabet hakkında daha fazla bilgi edinmek istiyorum, yardımcı olabilir misiniz?"
+Treatment_Info,Grip için kullanabileceğim en iyi ilaçlar nelerdir?
+Greeting,Nasılsınız?
+Goodbye,- Her şey gönlünüzce olsun
+Goodbye,Güle güle
+Refusal,10. Konu hakkında detaylı bilgi paylaşmak istemiyorum.
+Treatment_Info,Grip semptomlarını hafifletmek için hangi ilaçlar var?
+Greeting,- Selamlar
+Symptoms,6. Dizim ağrıyor ve fazla şiş.
+Appointment_Info,9. Doktordan randevu almanın yolları nelerdir?
+Greeting,Günaydın!
+Symptoms,7. Son iki gündür sürekli olarak karın bölgemde ağrı hissediyorum.
+Disease_Info,"Tabii, işte Alzheimer hastalığı ile ilgili bilgiler:"
+Symptoms,2. Yüksek ateşim var ve boğazım acıyor
+Treatment_Info,Diyabet tedavisinde kullanılan modern yöntemler nelerdir?
+Disease_Info,Diyabet hastalığı hakkında bilgi istiyorum.
+Disease_Info,Alzheimer hastalığı hakkında bana bazı gerçekleri anlatır mısınız?
+Disease_Info,7. Hipertansiyonun sağlık üzerindeki etkileri nelerdir?
+Goodbye,- Güle güle
+Goodbye,Allaha ısmarladık
+Disease_Info,9. Sedef hastalığı konusunda daha fazla aydınlatıcı bilgi verir misiniz?
+Symptoms,Diz ağrısı çekiyorum ve aynı zamanda şişlik de var.
+Treatment_Info,2. Grip için kullanılan ilaçlar hangileridir?
+Goodbye,- Güle güle
+Appointment_Info,Konumuma en yakın hastane bilgisine ihtiyacım var.
+Treatment_Info,- Diyabet tedavisinde ilginç gelişmeler mevcut mu?
+Refusal,10. Bu konuda konuşmak istemiyorum.
+Treatment_Info,Migren tedavisi için doktorumun önerdiği seçenekler neler?
+Appointment_Info,10. Hastaneye yönelmeli miyim acaba?
+Disease_Info,Alzheimer hastalığı hakkında bana bazı bilgiler sunabilir misiniz?
+Refusal,"*   Bu konu benim için hassas, başka bir şey konuşalım."
+Goodbye,Şimdilik hoşça kal
+Greeting,Selam!
+Symptoms,"8. Başımın ağrısı artık dayanılmaz boyutlara ulaştı, ne yapmalıyım?"
+Appointment_Info,MHRS sistemi üzerinden bir randevu ayarlama konusunda yardıma ihtiyacım var.
+Symptoms,"Baş ağrısı çekiyorum, bu konuda ne yapabilirim?"
+Goodbye,1. Hoşça kalın!
+Refusal,10. Bu konuyu bir kenara bırakalım ve başka bir şeye odaklanalım.
+Appointment_Info,3. Göz kontrolü için nasıl randevu alabilirim?
+Refusal,3. Bilgi vermeyi tercih etmiyorum.
+Disease_Info,- Alzheimer hastalığı hakkında ne biliyorsunuz?
+Appointment_Info,Bana en yakındaki sağlık kuruluşlarını gösterir misin?
+Symptoms,Karnım iki gündür sızlıyor.
+Disease_Info,Sedef hastalığı hakkında bana biraz bilgi verebilir misin?
+Appointment_Info,6. MHRS sistemi aracılığıyla hekim randevusu alma
+Greeting,Selam
+Symptoms,Diz bölgemde ağrı ve anormal bir şişlik fark ettim.
+Symptoms,Öksürmekten kendimi alamıyorum.
+Refusal,"9. Bilgi vermek istemiyorum, başka bir konuya geçebilir miyiz?"
+Disease_Info,"Diyabet nedir, açıklar mısınız?"
+Greeting,- Selam
+Disease_Info,"Migrenim var gibi hissediyorum, belirtileri neler olabilir?"
+Symptoms,"8. Dizimde ağrı hissediyorum, ayrıca şişmiş."
+Greeting,8. Hadi bakalım
+Appointment_Info,MHRS'yi kullanarak bir doktorla görüşme ayarlayabilir miyim?
+Treatment_Info,Astımımı tedavi etmek için hangi ilaçları kullanabilirim?
+Symptoms,"5. Ağrıyan başım nedeniyle çok zorlanıyorum, ne önerirsiniz?"
+Appointment_Info,3. Hangi hastane bana en yakın sağlık hizmetini verebilir?
+Treatment_Info,8. Kan basıncını düşürmenin doğal yolları nelerdir?
+Symptoms,"9. Ağrıyan başım yüzünden kendimi kötü hissediyorum, ne önerirsiniz?"
+Symptoms,4. Dizimde ağrı hissediyorum ve şişlik var.
+Appointment_Info,MHRS platformunu kullanarak randevu almak istiyorum.
+Treatment_Info,Diyabet tedavisinde kullanılan en etkili ve yeni yöntemler hakkında bilgi almak istiyorum.
+Goodbye,- Yine görüşmek üzere
+Symptoms,1. Dizim ağrıyor ve şişmiş.
+Symptoms,"Şiddetli baş ağrım var, bir öneriniz var mı?"
+Greeting,"10. Sabahın hayırlı olsun, doktor"
+Greeting,Nasılsınız?
+Disease_Info,9. Hipertansiyonun belirtileri ve tedavisi hakkında bilgi alabilir miyim?
+Greeting,5. Selamınaleyküm
+Refusal,*   Bu konuya girmek istemiyorum.
+Symptoms,10. Dizimde ağrı ve belirgin bir şişlik mevcut.
+Appointment_Info,Etrafımdaki hastanelerin listesini görebilir miyim?
+Refusal,Başka bir soru sormayacağım sanırım.
+Greeting,6. Hoş geldin
+Symptoms,2. Dizimde ağrı var ve şişkinlik var.
+Appointment_Info,Doktor randevusu için bir sisteminiz var mı?
+Disease_Info,6. Tansiyonun fazla olması durumuyla ilgili bilgi verir misiniz?
+Treatment_Info,Yüksek tansiyonu düşürmek için hangi tedavi yöntemleri uygulanır?
+Treatment_Info,"Diyabet tedavisindeki yenilikler nelerdir, öğrenebilir miyim?"
+Treatment_Info,Yüksek tansiyonumu nasıl tedavi edebilirim?
+Goodbye,"- Hoşça kalın, sağlıcakla kalın"
+Disease_Info,Migren atağının belirtileri nelerdir?
+Treatment_Info,Gribi tedavi etmek için hangi ilaçlar mevcuttur?
+Goodbye,Şimdilik hoşça kal.
+Treatment_Info,5. Yüksek tansiyonu düşürmek için ne gibi adımlar atabilirim?
+Refusal,"Özel bir durum, paylaşmak istemiyorum"
+Symptoms,"7. Ağrıyan başım beni olumsuz etkiliyor, bir çözüm bulmam gerekiyor."
+Refusal,* Bu konuyu görüşmekten kaçınmak istiyorum.
+Disease_Info,"Sedef hastalığı nedir, bana anlatır mısın?"
+Treatment_Info,Migren tedavisi nasıl yapılır
+Refusal,* Bu konuda konuşmak istemiyorum.
+Greeting,Günaydın!
+Goodbye,- Hadi sağlıcakla kalın
+Refusal,Başka bir konuda soru sormayacağım.
+Treatment_Info,Astımımı tedavi etmek için alternatif tedaviler var mı?
+Symptoms,"Başım çok kötü ağrıyor, ne önerirsiniz?"
+Appointment_Info,En yakın hastane nerede
+Symptoms,"2. Durmadan öksürüyorum, ne yapmalıyım?"
+Symptoms,1. Boğazımda sızlama var ve vücut ısım yüksek
+Greeting,- Selamün Aleyküm
+Treatment_Info,Migren ağrılarımı hafifletmek için ne yapabilirim?
+Refusal,5. Bu konuyu dile getirmek istemiyorum.
+Treatment_Info,3. Grip tedavisinde hangi tür ilaçlar önerilir?
+Refusal,*   Bu kişisel bir konu ve bahsetmek istemiyorum.
+Goodbye,Ben gidiyorum
+Greeting,"- Merhaba, nasılsınız?"
+Treatment_Info,3. Astım için en etkili tedavi yöntemi hangisidir?
+Symptoms,Dizimde ağrı ve şişlik var
+Appointment_Info,3. Sağlık randevusu için MHRS sistemini kullanma
+Appointment_Info,4. Hastane randevusu almak için MHRS'yi tercih etme
+Disease_Info,- Alzheimer hakkında bilgi alabilir miyim?
+Goodbye,Sonra görüşürüz
+Treatment_Info,1. Tansiyonunuzu düşürmek için neler yapabilirim?
+Treatment_Info,Astımımı tedavi etmek için ne yapmalıyım?
+Refusal,* Bu konuda yorum yapmak istemiyorum.
+Greeting,- Selamınaleyküm
+Greeting,Nasılsınız?
+Disease_Info,- Migren hakkında hangi belirtiler görülebilir?
+Treatment_Info,Diyabeti tedavi etmek için geliştirilen en son yöntemler hakkında bilgi edinebilir miyim?
+Symptoms,"5. Öksürmekten yoruldum, ne önerirsiniz?"
+Symptoms,3. Öksürmekten bir türlü kurtulamıyorum.
+Symptoms,1. Öksürük beni bir türlü bırakmıyor.
+Treatment_Info,Migrenim için hangi tedavi yöntemleri mevcut?
+Disease_Info,"Migren olduğumu nasıl anlarım, belirtileri nelerdir?"
+Appointment_Info,Bulunduğum yere yakın bir hastane arıyorum.
+Treatment_Info,8. Grip belirtilerini azaltmaya yardımcı olan ilaçlar hangileridir?
+Disease_Info,Sedef hastalığı hakkında bana bir şeyler anlatır mısın?
+Appointment_Info,1. MHRS sistemi üzerinden randevu oluşturma
+Disease_Info,Migren belirtileri nelerdir
+Disease_Info,Alzheimer hastalığı hakkında bana bazı temel bilgileri sunabilir misiniz?
+Greeting,Size yardımcı olmak için buradayım.
+Treatment_Info,- Migren tedavisinde doğal yöntemler nelerdir?
+Disease_Info,- Alzheimer hastalığıyla ilgili bilgi paylaşabilir misiniz?
+Treatment_Info,6. En iyi astım tedavi seçeneği hangisidir?
+Symptoms,"İki gündür karnımda bir ağrı var, ne olabilir?"
+Goodbye,Bay bay
+Refusal,*   Bu konuyu konuşmayalım.
+Symptoms,4. Ateşim çıktı ve boğazımda rahatsızlık var
+Greeting,Merhaba
+Symptoms,"3. Ağrıyan başım beni perişan ediyor, bir çözüm bulmam lazım."
+Appointment_Info,2. MHRS'den randevu alma işlemi
+Treatment_Info,3. Kan basıncınızı nasıl dengeleyebilirsiniz?
+Refusal,"5. Bilgi vermek istemiyorum, teşekkürler."
+Disease_Info,Hipertansiyon hakkında bana biraz bilgi verir misin?
+Appointment_Info,6. Göz doktorundan randevu nasıl alınır?
+Disease_Info,- Alzheimer hastalığı nedir hakkında bilgi verir misiniz?
+Refusal,*   Şu anda bu konu hakkında konuşmaya hazır değilim.
+Refusal,Bu bilgiyi paylaşmak rahat hissetmiyorum.
+Appointment_Info,9. Göz muayenesi için randevu nasıl planlanır?
+Refusal,"Tabii, başka bir konuda bana soru sorabilirsin."
+Treatment_Info,8. Astım semptomlarını en iyi şekilde kontrol altına alan tedavi yöntemi hangisidir?
+Refusal,Başka bir sorum yok şu anda.
+Goodbye,- Hoşça kal
+Appointment_Info,3. Doktor randevusu nasıl planlayabilirim?
+Greeting,"- İyi günler, nasıl gidiyor işler?"
+Treatment_Info,- Migren için hangi tedavi seçenekleri mevcut?
+Treatment_Info,Diyabet hastalığı için uygulanan en son tedavi protokolleri nelerdir?
+Refusal,* Bu konu hakkında konuşmak rahat hissetmiyorum.
+Treatment_Info,- Migren ağrıları için etkili tedavi yöntemleri nelerdir?
+Disease_Info,"1. Sedef nedir, hangi tür bir hastalıktır?"
+Refusal,Başka bir soru sorabilir miyim
+Treatment_Info,Astım için en etkili tedavi nedir
+Greeting,"Merhaba, nasılsınız?"
+Disease_Info,Hipertansiyon hakkında biraz daha bilgi edinmek istiyorum.
+Appointment_Info,Sağlık randevusu için MHRS'yi kullanabilir miyim?
+Greeting,- Selamlar
+Refusal,6. Bu şekilde ifade etmek istemiyorum.
+Goodbye,Görüşürüz
+Treatment_Info,10. Tansiyonu kontrol altında tutmanın ipuçları nelerdir?
+Refusal,7. Özel bir durumu ifşa etmek istemiyorum.
+Goodbye,"- Görüşmek üzere, sağlıkla kalın"
+Symptoms,"7. Boğazımda rahatsızlık var, ayrıca ateşim de var"
+Refusal,1. Bu ifadeyi kullanmak istemiyorum.
+Treatment_Info,10. Grip tedavisinde kullanılan ilaçların çeşitleri hakkında bilgi verir misiniz?
+Refusal,6. Konuyla ilgili detaylı bilgi vermek istemiyorum.
+Symptoms,- Ateşim var ve boğazımda rahatsız edici bir ağrı var.
+Treatment_Info,- Migrenin tedavisinde hangi yöntemler kullanılır?
+Appointment_Info,9. En yakın hastanenin adresi nedir?
+Treatment_Info,5. Astım tedavisinde en etkili olan seçenek nedir?
+Goodbye,Güle güle
+Refusal,"1. Özel bir konu, detay vermek istemiyorum."
+Greeting,Günaydın!
+Symptoms,Sürekli bir öksürük hali var.
+Appointment_Info,MHRS üzerinden bir randevu talebinde bulunmak istiyorum.
+Goodbye,Sonra görüşürüz
+Treatment_Info,2. En etkili astım tedavi seçeneği nedir?
+Disease_Info,Alzheimer hastalığı hakkında bana bazı ana hatları verir misiniz?
+Disease_Info,1. Şeker hastalığı olan diyabet hakkında bilgi verir misiniz?
+Refusal,*   Bu konu hakkında konuşmak istemiyorum.
+Goodbye,- Güle güle
+Symptoms,10. Karnımda ağrı hissetmeye başladığımdan beri iki gün geçti.
+Appointment_Info,1. Bir doktor randevusu nasıl ayarlayabilirim?
+Disease_Info,- Migren belirtilerine dair detaylı bilgi paylaşabilir misiniz?
+Goodbye,2. Kendinize iyi bakın!
+Treatment_Info,- Diyabet tedavisinde hangi yenilikçi yaklaşımlar mevcut?
+Treatment_Info,Hipertansiyon tedavisi hakkında bilgi almak istiyorum.
+Disease_Info,Diyabetin tanımı nedir?
+Disease_Info,10. Diyabet konusunda beni bilgilendirebilir misiniz?
+Treatment_Info,- Migren ağrıları için en etkili tedavi seçenekleri hangileridir?
+Goodbye,- Yine gelin
+Symptoms,- Ateşim çıktı ve boğazımda da bir ağrı hissediyorum.
+Disease_Info,"4. Hipertansiyon nedir, bana açıklayabilir misiniz?"
+Treatment_Info,Astım için bir tedavi planı nasıl oluşturabilirim?
+Symptoms,6. Karnımda ağrı hissetmeye başlayalı iki gün oldu.
+Symptoms,- Yüksek ateşim var ve boğazım da acıyor.
+Symptoms,"4. Başımın ağrısı beni rahatsız ediyor, acil bir çözüm bulmalıyım."
+Goodbye,- Şimdilik hoşça kalın
+Appointment_Info,5. Hastaneye gitmek için en yakın yer neresi?
+Greeting,"- Günaydın, ne haber?"
+Appointment_Info,Göz doktoru için nasıl randevu alabilirim
+Appointment_Info,8. Göz doktoruna gitmek için nasıl randevu ayarlayabilirim?
+Disease_Info,- Alzheimer hastalığı nedir konusunda bilgi verir misiniz?
+Appointment_Info,10. Sağlık randevusu için MHRS platformunu tercih etme
+Refusal,"Bu konu hakkında konuşmak istemiyorum, teşekkürler."
+Goodbye,Sağlıcakla kal.
+Disease_Info,Bana hipertansiyonla ilgili bazı bilgiler verebilir misiniz?
+Goodbye,4. Sağlıklı günler dilerim!
+Goodbye,- İyi günler dilerim
+Treatment_Info,Migrenle başa çıkmak için hangi tedavi yöntemleri işe yarar?
+Appointment_Info,MHRS'den bir tıbbi randevu ayarlamak istiyorum.
+Symptoms,"Başım durmadan ağrıyor, ne yapmalıyım?"
+Refusal,4. Bu meseleyi bir kenara bırakalım.
+Disease_Info,3. Diyabet hakkında ayrıntılı bilgi alabilir miyim?
+Symptoms,"10. Baş ağrım beni rahatsız ediyor, bir çözüm bulmak zorundayım."
+Appointment_Info,8. En yakın sağlık tesisine nasıl gidebilirim?
+Symptoms,"2. Başımın ağrısı dayanılmaz bir hal aldı, ne önerirsiniz?"
+Disease_Info,- Migren belirtileri konusunda bilgi sahibi olabilir miyim?
+Goodbye,- Sağlıkla kalın
+Refusal,8. Özel bir konuda konuşmak istemiyorum.
+Greeting,3. Günaydın
+Greeting,Selamlar!
+Disease_Info,Migren rahatsızlığının belirtileri nelerdir?
+Symptoms,İki gündür karnımda geçmeyen bir ağrı var.
+Appointment_Info,MHRS'den bir randevu ayarlamam gerekiyor.
+Disease_Info,Hipertansiyon hakkında ne biliyorsun?
+Symptoms,Başım çok ağrıyor ne yapmalıyım
+Treatment_Info,Yüksek tansiyonla başa çıkmak için hangi tıbbi yaklaşımlar vardır?
+Goodbye,Allaha ısmarladık.
+Goodbye,- İyi günler dilerim
+Greeting,"- Günaydın, nasılsınız?"
+Goodbye,- Hoşça kalın dostlar
+Refusal,"*   Bu benim için çok hassas, konuşmayalım."
+Appointment_Info,Acil servise gitmem gerekir mi
+Goodbye,"Teşekkür ederim, iyi günler"
+Appointment_Info,4. Doktor görüşmesi için nasıl bir randevu ayarlayabilirim?
+Appointment_Info,MHRS üzerinden bir doktor randevusu oluşturmak mümkün mü?
+Disease_Info,Bana hipertansiyon hakkında genel bir bakış sunabilir misin?
+Greeting,"7. Hey, sağlık uzmanı"
+Disease_Info,- Alzheimer hastalığıyla ilgili ne söyleyebilirsiniz?
+Refusal,Bu konu hakkında konuşmak istemiyorum.
+Disease_Info,Sedef hastalığına dair detaylı bilgi arıyorum.
+Greeting,İyi geceler!
+Greeting,Merhaba!
+Symptoms,"9. Öksürük beni çok rahatsız ediyor, ne yapabilirim?"
+Appointment_Info,2. Doktora gitmek için nasıl bir randevu alabilirim?
+Greeting,1. Merhaba
+Disease_Info,Sedef hastalığı nasıl bir hastalıktır
+Refusal,"Elbette, başka bir konu hakkında da soru sormak özgürsün."
+Treatment_Info,Diyabet tedavisinde çığır açan yeni yaklaşımlar var mı?
+Disease_Info,Sedef hastalığı ile ilgili temel bilgiler nelerdir?
+Symptoms,5. Dizim ağrı ve şişkinlikle rahatsız.
+Greeting,- Günaydın
+Refusal,3. Bu konuya artık dönmeyelim.
+Symptoms,Öksürüğüm hiç dinmiyor.
+Greeting,İyi günler!
+Symptoms,"6. Baş ağrım insana işkence edercesine şiddetli, ne yapmalıyım?"
+Treatment_Info,- Diyabet hastaları için yeni tedavi seçenekleri neler olabilir?
+Appointment_Info,6. Muayene için nasıl bir doktor randevusu alabilirim?
+Greeting,İyi akşamlar!
+Symptoms,Durmadan öksürmekten boğazım ağrıyor.
+Disease_Info,6. Diyabet hakkında bilgi verme şansınız var mı?
+Symptoms,Son iki gündür karın ağrısı çekiyorum.
+Goodbye,Tekrar görüşmek dileğiyle.
+Greeting,Merhaba!
+Treatment_Info,- Migren ağrılarına karşı hangi ilaçlar önerilir?
+Symptoms,"Ağır bir baş ağrısıyla karşı karşıyayım, nasıl rahatlayabilirim?"
+Refusal,8. Bu ifadeyi kullanmak istemiyorum.
+Treatment_Info,Astımımı tedavi etmenin yolları nelerdir?
+Goodbye,- Hoşça kal
+Greeting,"- Selamlar, bugün nasıl geçiyor?"
+Appointment_Info,8. Randevu almak için doktora nasıl ulaşabilirim?
+Treatment_Info,9. Grip için en etkili ilaçlar nelerdir?
+Disease_Info,- Migrenin belirtileri nedir acaba?
+Refusal,4. Bu konuda bilgi paylaşmak istemiyorum.
+Goodbye,- Görüşmek üzere
+Disease_Info,Migrenin karakteristik özellikleri nelerdir?
+Symptoms,1. Son iki gün boyunca mide bölgem rahatsız edici bir şekilde acıyor.
+Appointment_Info,2. Acil servise başvurmalı mıyım?
+Appointment_Info,5. Doktor randevusu için nasıl rezervasyon yapabilirim?
+Refusal,"Evet, farklı bir soru sormak senin hakkın."
+Symptoms,"Karnım iki gündür ağrıyor, endişelenmeli miyim?"
+Greeting,Burada olduğuma memnun oldum.
+Disease_Info,Alzheimer hastalığı hakkında bana bilgi sağlayabilir misiniz?
+Appointment_Info,Doktor randevusu için uygun bir zaman ayarlayabilir miyiz?
+Greeting,9. Naber?
+Treatment_Info,- Diyabet tedavisinde kullanılan ilaçların dışında başka seçenekler var mı?
+Goodbye,Gitmem gerek artık
+Disease_Info,Hipertansiyon hakkında bilgi alabilir miyim
+Treatment_Info,Grip için hangi ilaçlar kullanılır
+Greeting,Hey
+Symptoms,Karnım ağrıyor ve bu durum iki gündür devam ediyor.
+Disease_Info,Hipertansiyonun ne olduğuyla ilgili bilgiye ihtiyacım var.
+Symptoms,İki gündür karnım ağrıyor
+Appointment_Info,MHRS üzerinden randevu alma
+Goodbye,İyi günler dilerim
+Refusal,1. Bilgi paylaşmak istemiyorum.
+Disease_Info,3. Tansiyon yüksekliği konusunda bana bilgi verebilir misiniz?
+Greeting,İyi akşamlar!
+Treatment_Info,Kan basıncımı nasıl düşürebilirim?
+Disease_Info,- Alzheimer hastalığıyla ilgili bilgi alabilir miyim?
+Greeting,1. Selam hekim
+Disease_Info,Alzheimer hastalığı hakkında bana bazı temel bilgileri verir misiniz?
+Goodbye,- Kendine iyi bak
+Refusal,Bu konuyu geçelim
+Symptoms,"Başım çok fena ağrıyor, bana yardımcı olabilir misiniz?"
+Refusal,*   Bu bilgiyi kendime saklamak istiyorum.
+Greeting,Günaydın
+Goodbye,Ben kaçar
+Goodbye,Kendine iyi bak
+Greeting,- Tünaydın
+Greeting,"Selam, size nasıl yardımcı olabilirim?"
+Greeting,- Naber?
+Disease_Info,Sedef hastalığı hakkında kısa bir özet rica edebilir miyim?
+Treatment_Info,5. Hangi ilaçlar grip semptomlarını hafifletmek için kullanılır?
+Greeting,3. İyi günler doktor
+Disease_Info,"Tabii, işte Hipertansiyon hakkında bilgi alabileceğiniz 10 farklı şekilde ifade edilmiş mesaj:"
+Symptoms,4. Karnımda rahatsızlık veren bir ağrı var ve bu durum iki gündür devam ediyor.
+Symptoms,- Vücut ısım arttı ve boğazımda bir sorun var gibi.
+Disease_Info,Sedef hastalığı hakkında genel bir bilgi alabilir miyim?
+Refusal,Şimdilik başka bir sorum yok.
+Refusal,2. Özel bir durum hakkında konuşmak istemiyorum.
+Goodbye,- Görüşmek dileğiyle
+Refusal,2. Konu hakkında bilgi vermek istemiyorum.
+Symptoms,- Hem ateşim var hem de boğazım çok kötü ağrıyor.
+Symptoms,Diz kapağımda ağrı ve şişme sorunları yaşıyorum.
+Greeting,Merhaba!
+Greeting,- Selam
+Goodbye,Güle güle.
+Treatment_Info,Astımımı tedavi etmek için ameliyat gerekli mi?
+Disease_Info,Alzheimer hastalığı hakkında bana bir şeyler öğretebilir misiniz?
+Treatment_Info,Grip tedavisinde kullanılan ilaçlar nelerdir?
+Appointment_Info,9. MHRS üzerinden doktor görüşmesi ayarlama
+Disease_Info,Diyabetin ne olduğunu merak ediyorum.
+Greeting,Selam!
+Symptoms,"5. Boğazımda ağrı var, aynı zamanda ateşim de var"
+Refusal,4. Özel bir durumu paylaşmak istemiyorum.
+Disease_Info,Diyabet hakkında bilgi almak istiyorum.
+Treatment_Info,9. Yüksek tansiyonla savaşmak için ne gibi stratejiler izlemeliyim?
+Disease_Info,7. Diyabetin anlamını açıklar mısınız?
+Goodbye,"- Hoşça kal, sağlıcakla kal"
+Refusal,7. Bu mevzuyu bir sonraki sefere bırakalım.
+Refusal,9. Özel bir meseleyi paylaşmak istemiyorum.
+Symptoms,Durmadan öksürüyorum.
+Disease_Info,Diyabet hakkında daha fazla şey öğrenmek istiyorum.
+Disease_Info,4. Sedef rahatsızlığı hakkında ne biliyorsunuz?
+Goodbye,"- Güle güle, sağlıklı günler dilerim"
+Greeting,"Merhaba, nasılsınız?"
+Refusal,"Elbette, merak ettiğin başka bir konu varsa sorabilirsin."
+Refusal,"Elbette, farklı bir konuda bir soru sormak istersen hazırım."
+Symptoms,- Vücut sıcaklığım yüksek ve yutkunmakta zorlanıyorum.
+Refusal,"Kesinlikle, başka bir konuda sormak istediğin bir soru varsa dinlemeye hazırım."
+Greeting,"Merhaba, nasılsın?"
+Symptoms,3. Dizim ağrıyor ve şişmiş durumda.
+Disease_Info,Migren rahatsızlığının semptomları hakkında bilgi verir misin?
+Goodbye,10. Kendinize iyi davranın!
+Greeting,- Hey
+Treatment_Info,Yüksek tansiyonu kontrol altına almanın yolları nelerdir?
+Goodbye,"6. Hoşçakalın, sağlıcakla kalın!"
+Goodbye,"8. Hoşçakal, mutlu kal!"
+Appointment_Info,Bana en yakındaki acil servis olan hastaneyi söyleyebilir misin?
+Appointment_Info,5. Göz muayenesi randevusu nasıl alınır?
+Symptoms,"1. Ağrıyan başım beni mahvediyor, ne yapacağımı şaşırdım."
+Greeting,"5. Merhabalar, selam"
+Refusal,"Tabii, başka bir şey merak ediyorsan sormaktan çekinme."
+Treatment_Info,Gribe iyi gelen ilaçlar hakkında bilgi verir misiniz?
+Symptoms,Öksürük bir türlü geçmiyor.
+Treatment_Info,Hipertansiyonu tedavi etmek için neler yapılabilir?
+Refusal,*   Bu konuyu değiştirelim.
+Greeting,4. Selam sağlık profesyoneli
+Greeting,10. Günaydın dostum
+Refusal,Başka bir şey sormak istemiyorum.
+Goodbye,Umarım tekrar konuşuruz.
+Greeting,İyi akşamlar
+Disease_Info,Alzheimer hastalığı hakkında bilmem gerekenleri bana açıklar mısınız?
+Disease_Info,2. Yüksek tansiyon ile ilgili ne söyleyebilirsiniz?
+Treatment_Info,- Migren ağrılarını hafifletmek için neler yapılabilir?
+Refusal,Bu soruyu yanıtsız bırakmayı tercih ederim.
+Greeting,"- Selam, keyfiniz nasıl?"
+Symptoms,"Başım zonkluyor, bu konuda ne yapabilirim?"
+Symptoms,Aralıksız öksürüyorum.
+Goodbye,Hoşça kal.
+Refusal,*   Bu konuyu atlayalım.
+Disease_Info,Alzheimer hastalığı hakkında bana bazı detaylar verir misiniz?
+Goodbye,Sağlıcakla kal
+Symptoms,Öksürük yakamı bırakmıyor.
+Appointment_Info,8. Doktor muayenesi için MHRS üzerinden randevu talep etme
+Greeting,Hey!
+Greeting,Naber?
+Symptoms,9. Boğaz ağrım var ve ateşim yükseldi
+Symptoms,5. Ağrılarım iki gün önce başladı ve hala devam ediyor.
+Treatment_Info,9. Astım tedavisinde başarı oranı en yüksek olan yöntem hangisidir?
+Appointment_Info,4. Göz doktoruna görünmek için nasıl randevu ayarlayabilirim?
+Refusal,2. Bu cümleyi kurmak istemiyorum.
+Disease_Info,9. Diyabetin tanımı nedir?
+Treatment_Info,6. Grip tedavisinde kullanılan ilaçlar hakkında bilgi verebilir misiniz?
+Appointment_Info,6. Acile mi gitmeliyim?
+Refusal,5. Özel bir meseleyi dile getirmek istemiyorum.
+Greeting,Selam!
+Treatment_Info,1. Astım tedavisinde en çok önerilen yöntem hangisidir?
+Disease_Info,Hipertansiyonun ne anlama geldiğini bana açıklar mısın?
+Symptoms,9. Dizim ağrıyor ve şişmiş durumda.
+Refusal,9. Bu meseleyi şimdilik rafa kaldıralım.
+Refusal,*   Bu bilgiyi paylaşmak istemiyorum.
+Disease_Info,- Alzheimer ile ilgili bilgi verir misiniz?
+Symptoms,Karnımda iki gündür süren bir sancı hissediyorum.
+Treatment_Info,Grip için hangi ilaçları önerirsiniz?
+Disease_Info,5. Sedef hastalığı hakkında daha fazla bilgi istiyorum.
+Symptoms,Baş ağrısından kurtulmak için ne yapmalıyım?
+Disease_Info,"7. Sedef hastalığı nasıl teşhis edilir, tedavisi var mıdır?"
+Refusal,* Bunu tartışmak istemiyorum.
+Appointment_Info,3. Acil durum için hastaneye gitmeli miyim?
+Refusal,"6. Özel bir konu var, detay vermek istemiyorum."
+Treatment_Info,7. Tansiyon kontrolü için etkili yöntemler nelerdir?
+Disease_Info,2. Sedef hastalığı hakkında bilgi verebilir misiniz?
+Goodbye,9. Sağlıkla kalın!
+Appointment_Info,Acil durum için yakındaki hastanelerin adreslerini öğrenmek istiyorum.
+Disease_Info,Lütfen hipertansiyon hastalığı hakkında bana bilgi verin.
+Treatment_Info,Diyabet için güncel tedavi yaklaşımları hakkında bilgi alabilir miyim?
+Greeting,- İyi günler
+Greeting,"- Selam, gününüz nasıl geçiyor?"
+Disease_Info,- Migrenin belirtileriyle ilgili ne söyleyebilirsiniz?
+Goodbye,"- Hoşça kalın, sağlıklı kalın"
+Treatment_Info,Gribe karşı hangi ilaçlar etkilidir?
+Disease_Info,Diyabet hakkında genel bir bilgi alabilir miyim?
+Goodbye,"- Hoşça kalın, sağlıklı kalın"
+Goodbye,7. Her şey gönlünüzce olsun!
+Treatment_Info,Migren tedavisi hakkında daha fazla bilgiye ihtiyacım var.
+Greeting,"6. Günaydın, doktor"
+Treatment_Info,Migren tedavisi süreci nasıl ilerler?
+Greeting,"- İyi günler, nasıl hissediyorsunuz?"
+Symptoms,2. Karnımda ağrı hissediyorum ve bu durum iki gündür devam ediyor.
+Greeting,4. Nasılsın?
+Refusal,6. Bu konuyu kapatmamızın daha iyi olacağını düşünüyorum.
+Refusal,*   Bu benim özelim ve kimseyle paylaşmak zorunda değilim.
+Symptoms,Dizimde rahatsız edici bir ağrı ve şişlik hissediyorum.
+Appointment_Info,Doktor randevusu için bir talepte bulunmak istiyorum.
+Symptoms,10. Öksürmekten dolayı enerjim sürekli düşüyor.
+Symptoms,4. Öksürük sorunum bir türlü geçmiyor.
+Appointment_Info,7. Gecikmeden hastaneye gitmeli miyim?
+Disease_Info,- Migren belirtilerinden bahsedebilir misiniz?
+Appointment_Info,4. Acil servise gitmeli miyim acaba?
+Treatment_Info,Grip olduğumda hangi ilaçları almalıyım?
+Greeting,Hey!
+Symptoms,6. Vücut ısım yüksek ve boğazım acıyor
+Treatment_Info,- Diyabet tedavisinde modern yöntemlerin etkisi nedir?
+Symptoms,Diz bölgemde ağrı ve şişkinlik mevcut.
+Treatment_Info,- Diyabet tedavisinde son zamanlarda kullanılan farklı yöntemler var mı?
+Treatment_Info,Migren tedavisi hakkında bilgi alabilir miyim?
+Refusal,* Bu konu benim için hassas.
+Goodbye,Görüşmek üzere
+Treatment_Info,Astım tedavisi için önerileriniz nelerdir?
+Disease_Info,Alzheimer hastalığı hakkında bana bazı önemli noktaları anlatır mısınız?
+Treatment_Info,- Migren tedavisinde alternatif çözümler neler olabilir?
+Refusal,*   Bu konu hakkında konuşmak beni rahatsız ediyor.
+Symptoms,10. Ateşim yükseldi ve boğazımda rahatsızlık var
+Refusal,"Evet, farklı bir soru sormak istediğinde buradayım."
+Appointment_Info,1. Tedavi olabileceğim en yakın hastane hangisi?
+Goodbye,Kendine iyi bak.
+Goodbye,Allaha ısmarladık
+Symptoms,9. İki gündür karnımda devamlı bir ağrı hissediyorum.
+Disease_Info,Sedef hastalığının ne olduğunu öğrenmek istiyorum.
+Greeting,Selamlar
+Disease_Info,Hipertansiyon hakkında bana bilgi sağlayabilir misin?
+Treatment_Info,Migren ataklarını durdurmak için hangi ilaçları kullanabilirim?
+Symptoms,- Ateşlendim ve boğazım çok kötü durumda.
+Symptoms,8. Öksürük nedeniyle rahat uyuyamıyorum.
+Treatment_Info,4. Tansiyon kontrolü için önerileriniz neler?
+Goodbye,- Sağlıklı günler dilerim
+Disease_Info,Migrenin tipik belirtileri nelerdir?
+Treatment_Info,- Diyabet tedavisinde doğal yöntemlerin etkisi nedir?
+Greeting,İyi günler
+Refusal,4. Bu ifadeyi kullanmak istemiyorum.
+Appointment_Info,Doktor randevusu nasıl alabilirim
+Appointment_Info,"Doktor randevusu ayarlamak istiyorum, yardımcı olur musunuz?"
+Appointment_Info,Bir doktor randevusu ayarlamam gerekiyor.
+Treatment_Info,Yüksek tansiyon nasıl kontrol edilir
+Treatment_Info,- Migren tedavisinde hangi tür ilaçlar kullanılır?
+Goodbye,Tekrar görüşmek dileğiyle
+Appointment_Info,"Yakın çevrede hangi hastaneler var, öğrenebilir miyim?"
+Refusal,"*   Bu benim için çok kişisel, bu konuda konuşmayalım olur mu?"
+Treatment_Info,Migren ağrısını gidermek için uygulanan tedavi yöntemleri nelerdir?
+Disease_Info,2. Diyabetin tanımını yapar mısınız?
+Disease_Info,- Alzheimer hastalığıyla alakalı bilgi verir misiniz?
+Greeting,Selamlar!
+Appointment_Info,1. Acilen hastaneye gitmeli miyim?
+Refusal,*   Bu konu hakkında konuşmak istemediğimi lütfen anlayın.
+Appointment_Info,7. Online randevu oluşturmak için MHRS'i kullanma
+Disease_Info,Alzheimer hastalığı hakkında bilgi verir misiniz
+Disease_Info,Migren ağrısının belirtileri hakkında bilgiye ihtiyacım var.
+Goodbye,Kendine iyi bak
+Refusal,5. Bu tartışmayı sonlandıralım.
+Symptoms,"Başım ağrıyor, ne yapmamı tavsiye edersiniz?"
+Appointment_Info,9. Acil servise gitmem gerektiğini düşünüyor musunuz?
+Symptoms,Diz eklemimde ağrı var ve şişmiş durumda.
+Symptoms,Dizimde hem ağrı var hem de gözle görülür bir şişlik var.
+Refusal,Bu bilgi benim için özeldir ve paylaşmak istemiyorum.
+Refusal,*   Başka bir şey konuşalım.
+Appointment_Info,6. En yakın sağlık merkezi hangi yönde bulunuyor?
+Greeting,İyi akşamlar!
+Appointment_Info,8. Acil servise doğru yola çıkmalı mıyım?
+Refusal,Bu soruyu cevaplamak istemiyorum.
+Disease_Info,"Sedef hastalığı nedir, açıklar mısın?"
+Disease_Info,"Diyabet hastalığı nedir, anlatır mısınız?"
+Goodbye,- Hoşça kalın
+Disease_Info,- Migrenin belirtileriyle ilgili bilgi almak istiyorum.
+Disease_Info,Yüksek tansiyonla ilgili bana bilgi verebilir misin?
+Greeting,Merhaba!
+Greeting,"- Günaydın, nasıl gidiyor?"
+Treatment_Info,- Diyabet hastalığı için yeni keşfedilen tedavi yöntemleri var mı?
+Refusal,Bu konuda bilgi vermek istemiyorum
+Disease_Info,10. Sedef hastalığı hakkında ayrıntılı bir açıklama yapabilir misiniz?
+Refusal,Başka bir şey sormayacağım.
+Disease_Info,Diyabet ile ilgili temel bilgiler nelerdir?
+Refusal,* Bu konuda konuşmayı tercih etmiyorum.
+Goodbye,- Hoşça kalın
+Greeting,İyi akşamlar!
+Treatment_Info,- Migren belirtileri için hangi tedaviler önerilir?
+Treatment_Info,Diyabet tedavisindeki son gelişmeler nelerdir?
+Refusal,7. Bu sözleri söylemek istemiyorum.
+Treatment_Info,Astımımı nasıl tedavi edebilirim?
+Goodbye,"- Görüşmek üzere, kendine iyi bak"
+Refusal,*   Bu konuyu konuşmaya hazır değilim.
+Treatment_Info,1. Grip tedavisinde tercih edilen ilaçlar nelerdir?
+Appointment_Info,7. Göz kontrolü için randevu nasıl oluşturulur?
+Treatment_Info,7. Grip için önerilen ilaç türleri nelerdir?
+Refusal,"*   Bu benim sınırım, lütfen zorlamayın."
+Greeting,- Canım selam
+Refusal,"Evet, başka bir soru sormak için buradayım."
+Greeting,Nasılsın?
+Appointment_Info,10. Göz doktoruna randevu nasıl alınır?
+Greeting,Selam millet
+Symptoms,Öksürük nöbetleri beni çok yoruyor.
+Appointment_Info,1. Göz muayenesi için randevu nasıl alabilirim?
+Treatment_Info,Yüksek tansiyon sorununa hangi çözümler bulunabilir?
+Goodbye,Görüşürüz o zaman
+Disease_Info,4. Diyabetin ne olduğunu açıklar mısınız?
+Greeting,- Hoş geldin
+Greeting,Selamlar!
+Greeting,- Merhabalar
+Goodbye,Sonra görüşürüz.
+Appointment_Info,7. En yakın hastanenin konumu nedir?
+Refusal,Bu soruyu geçebilir miyiz?
+Greeting,Selam
+Symptoms,Günlerdir öksürüyorum.
+Treatment_Info,10. Astımın etkili bir şekilde tedavi edilmesini sağlayan yöntemler nelerdir?
+Greeting,9. Tıp dünyasından selamlar
+Symptoms,Dizimde bir ağrı ve beraberinde şişlik hissediyorum.
+Greeting,İyi günler
+Goodbye,- Güle güle
+Refusal,Başka bir soruyla devam etmeyeceğim.
+Treatment_Info,2. Yüksek tansiyonla başa çıkmanın yolları nelerdir?
+Appointment_Info,Doktor randevusu almak için ne yapmalıyım?
+Appointment_Info,5. Sağlık kontrolü için MHRS üzerinden randevu planlama
+Treatment_Info,Diyabetle başa çıkmak için hangi yeni tedavi seçenekleri mevcut?
+Refusal,* Bu konuya girmek istemiyorum.
+Refusal,Bu soruyu cevaplamak zorunda değilim.
+Appointment_Info,5. Hemen hastaneye mi gitmeliyim?
+Greeting,İyi günler!
+Disease_Info,5. Diyabet konusunda detaylı bilgi paylaşabilir misiniz?

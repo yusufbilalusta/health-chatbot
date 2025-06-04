@@ -1,70 +1,114 @@
-# Marmara Akademik Chatbot
+# 🩺 Sağlık Bilgilendirme Chatbot
 
-Bu proje, Marmara Üniversitesi akademik dokümanları üzerinde çalışan bir RAG (Retrieval Augmented Generation) tabanlı chatbot uygulamasıdır. Bu chatbot, kullanıcıların üniversite ile ilgili sorularını, dokümanlardan bilgi çekerek yanıtlamaktadır.
+Bu proje, kullanıcının sağlıkla ilgili sorularını anlayarak uygun bilgilendirme yapan bir chatbot uygulamasıdır. Sistem, kullanıcının niyetini (intent) sınıflandırır ve ya hazır cevaplar döndürür ya da bir tıbbi makale veri tabanından içerik getirir.
 
-## Özellikler
+## 🎯 Proje Özellikleri
 
-- Marmara Üniversitesi dokümanlarını vektör veritabanına dönüştürme
-- Google Gemini veya OpenAI modellerini kullanabilme seçeneği
-- Kullanıcı dostu Streamlit arayüzü
-- Sohbet geçmişini kaydetme ve görüntüleme
-- Türkçe sorulara Türkçe yanıtlar
+- **Intent Classification**: Kullanıcı mesajlarını 7 farklı niyet kategorisine sınıflandırır
+- **RAG (Retrieval Augmented Generation)**: Tıbbi makalelerden ilgili içeriği getirir
+- **Model Karşılaştırması**: OpenAI ve Gemini modellerinin performans karşılaştırması
+- **Streamlit Arayüzü**: Kullanıcı dostu bir arayüz
 
-## Kurulum
+## 🧠 Intent Sınıfları
 
-1. Bu repository'yi klonlayın:
-```bash
-git clone <repository-url>
-cd <repository-directory>
+- **Greeting**: Selamlama
+- **Goodbye**: Vedalaşma
+- **Refusal**: Yanıtlama istememe
+- **Symptoms**: Semptom sorgulama ("baş ağrım var ne olabilir?")
+- **Disease_Info**: Hastalık hakkında bilgi isteme ("diyabet nedir?")
+- **Treatment_Info**: Tedavi hakkında bilgi isteme ("astım için hangi ilaçlar kullanılır?")
+- **Appointment_Info**: Randevu/klinik işlemleri hakkında soru
+
+## 🏗️ Proje Yapısı
+
+```
+chatbot-health/
+├── data/
+│   ├── intents_dataset/
+│   │   └── health_intents.csv
+│   ├── rag_corpus/
+│   │   ├── diabet.pdf
+│   │   └── migren.txt
+│   └── generate_intents_data.py
+├── models/
+│   ├── gpt_model.py
+│   ├── gemini_model.py
+│   └── intent_classifier.py
+├── retriever/
+│   └── rag_engine.py
+├── app/
+│   └── streamlit_app.py
+├── evaluation_results/
+│   └── all_metrics.json
+├── evaluate_health_chatbot.py
+├── README.md
+└── requirements.txt
 ```
 
-2. Gerekli paketleri yükleyin:
+## 🚀 Kurulum
+
+1. Gerekli kütüphaneleri yükleyin:
+
 ```bash
 pip install -r requirements.txt
 ```
 
-3. API anahtarlarınızı ayarlayın:
-   - `env_sample` dosyasını `.env` olarak kopyalayın
-   - `.env` dosyasını açın ve Google Gemini ve/veya OpenAI API anahtarlarınızı ekleyin
+2. API anahtarlarınızı `.env` dosyasında tanımlayın:
 
-## Kullanım
-
-1. Streamlit uygulamasını başlatın:
-```bash
-streamlit run app.py
+```
+OPENAI_API_KEY=your_openai_api_key
+GOOGLE_API_KEY=your_google_api_key
 ```
 
-2. Tarayıcınızda otomatik olarak açılacak olan Streamlit arayüzünden:
-   - Sidebar'dan kullanmak istediğiniz modeli seçin (Gemini veya OpenAI)
-   - Marmara Üniversitesi ile ilgili sorularınızı sorun
+3. Intent sınıflandırıcısı için veri seti oluşturun:
 
-## Proje Yapısı
+```bash
+python data/generate_intents_data.py
+```
 
-- `app.py`: Ana Streamlit uygulaması
-- `data/`: PDF dokümanlarının bulunduğu klasör
-- `requirements.txt`: Gerekli Python paketleri
-- `env_sample`: Örnek .env dosyası
+4. RAG için tıbbi makaleleri `data/rag_corpus/` dizinine ekleyin.
 
-## Nasıl Çalışır?
+## 📊 Eğitim ve Değerlendirme
 
-1. PDF dokümanları okunur ve küçük parçalara ayrılır
-2. Her parça, seçilen modele göre vektör temsillere dönüştürülür
-3. Kullanıcı bir soru sorduğunda, soru ile en alakalı parçalar vektör veritabanından çekilir
-4. LLM modeli, bu belge parçalarını kullanarak soruyu yanıtlar
+Intent sınıflandırıcıyı eğitmek ve değerlendirmek için:
 
-## Model Seçimi
+```bash
+python evaluate_health_chatbot.py
+```
 
-### Gemini
-- Google'ın en son dil modeli
-- Türkçe dil desteği güçlü
-- Uzun belge anlama yeteneği
+Bu komut, intent sınıflandırma ve RAG performansını değerlendirir ve sonuçları `evaluation_results/` dizinine kaydeder.
 
-### OpenAI
-- GPT-3.5-turbo modeli kullanılır
-- Güçlü doğal dil anlama yetenekleri
-- İyi yapılandırılmış yanıtlar
+## 🖥️ Uygulamayı Çalıştırma
 
-## Notlar
+```bash
+streamlit run app/streamlit_app.py
+```
 
-- İlk çalıştırmada vektör veritabanını oluşturmak biraz zaman alabilir
-- En iyi performans için spesifik sorular sorun 
+Uygulama http://localhost:8501 adresinde çalışacaktır.
+
+## 📝 Model Performans Karşılaştırması
+
+Modeller aşağıdaki metriklerle değerlendirilmiştir:
+
+- Precision
+- Recall
+- F1 Score
+- Confusion Matrix
+
+Intent sınıflandırma performansı için model karşılaştırma sonuçları `intent_classification_comparison.csv` dosyasında, RAG performans sonuçları ise `rag_performance_comparison.csv` dosyasında bulunabilir.
+
+## 🛠️ Kullanılan Teknolojiler
+
+- LangChain
+- Sentence Transformers
+- ChromaDB
+- Streamlit
+- Google Gemini API
+- OpenAI API
+- Scikit-learn
+- Pandas
+- Matplotlib & Seaborn
+
+## 📄 Lisans
+
+Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için LICENSE dosyasına bakınız. 

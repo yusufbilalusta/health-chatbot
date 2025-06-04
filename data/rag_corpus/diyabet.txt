@@ -1,0 +1,84 @@
+# Diyabet
+
+## Diyabet nedir?
+
+Diyabet, vücudun kan şekeri seviyelerinin kontrol edilememesi durumunda ortaya çıkan bir metabolik bozukluktur. Bu durum, pankreasın yeterince insülin üretememesi veya vücudun ürettiği insülini etkili bir şekilde kullanamaması sonucunda meydana gelir. İnsülin, kan şekerinin hücrelere taşınmasına yardımcı olan bir hormondur. 
+
+Diyabet, genellikle tip 1 diyabet ve tip 2 diyabet olmak üzere iki ana tipe ayrılır. Tip 1 diyabet, bağışıklık sisteminin pankreasın insülin üreten hücrelerini hedef alarak yok etmesi sonucunda ortaya çıkar ve genellikle genç yaşlarda teşhis edilir. Tip 1 diyabet hastalarının ömür boyu insülin enjeksiyonlarına ihtiyacı vardır.
+
+Tip 2 diyabet ise genellikle yaşam tarzı faktörleriyle ilişkilidir ve vücut insülini etkili bir şekilde kullanamaz hale gelir. Tip 2 diyabet genellikle obezite, hareketsiz yaşam tarzı, genetik yatkınlık gibi faktörlerle ilişkilidir. Tip 2 diyabetin tedavisinde yaşam tarzı değişiklikleri, beslenme düzeni, egzersiz ve ilaç tedavisi gibi yöntemler kullanılır.
+
+Diyabetin kontrol altına alınmaması ciddi komplikasyonlara yol açabilir. Bunlar arasında kalp hastalıkları, böbrek hastalıkları, görme problemleri, sinir hasarı ve ayak problemleri gibi durumlar yer alır. Bu nedenle, diyabetin erken teşhisi, düzenli takibi ve uygun tedavisi oldukça önemlidir.
+
+## Diyabet belirtileri nelerdir?
+
+Diyabet, vücudun kan şekeri seviyesinin yüksek olduğu bir durumdur. Diyabetin belirtileri şunları içerebilir:
+
+1. **Aşırı Susama ve İdrara Çıkma:** Diyabet, böbreklerin fazla şeker atması sonucu sık idrara çıkma ve buna bağlı olarak aşırı susama hissi yaratabilir.
+
+2. **Aşırı Yorgunluk ve Halsizlik:** Vücudun hücreleri yeterince enerji alamadığında, ki bu diyabetli bireylerde sık görülür, aşırı yorgunluk ve halsizlik hissedilebilir.
+
+3. **Açlık Hissi ve Ani Kilo Kaybı:** Vücut hücreleri enerji alamadığında, açlık hissi artabilir. Bu durumda vücut yağ depolarını kullanarak enerji üretmeye çalışır ve bu da ani kilo kaybına neden olabilir.
+
+4. **Bulanık Görme:** Yüksek kan şekeri seviyeleri, göz lensinde şişmeye neden olabilir ve bu durum bulanık görme sorunlarına yol açabilir.
+
+5. **Yara İyileşme Problemleri:** Diyabet, vücudun yara iyileşme sürecini yavaşlatabilir. Bu nedenle, kesikler veya yaralar normalden daha uzun sürede iyileşebilir.
+
+6. **Eller ve Ayaklarda Karıncalanma:** Diyabet, sinir hasarına yol açabilir. Bu durum ellerde, ayaklarda veya bacaklarda karıncalanma, uyuşma veya yanma hissi şeklinde kendini gösterebilir.
+
+Bu belirtilerden herhangi birini ya da birkaçını yaşıyorsanız, bir sağlık profesyoneline danışmanız önemlidir. Diyabet erken teşhis edildiğinde ve uygun şekilde yönetildiğinde, ciddi komplikasyonların önlenmesine yardımcı olabilir.
+
+## Diyabet tedavisi nasıl yapılır?
+
+Diyabet tedavisi, hastalığın tipine ve şiddetine bağlı olarak değişiklik gösterebilir. Genel olarak, diyabet tedavisi şu unsurları içerir:
+
+1. **Diyet ve Egzersiz:** Diyabet tedavisinde en önemli adımlardan biri sağlıklı beslenme ve düzenli egzersiz yapmaktır. Dengeli bir diyet, kan şekeri seviyelerini kontrol altında tutmaya yardımcı olur. Karbonhidrat, yağ ve protein dengesine dikkat edilmesi önemlidir. Egzersiz ise insülinin daha etkili kullanılmasını sağlar ve kan şekeri seviyelerini düzenler.
+
+2. **İlaç Tedavisi:** Tip 1 diyabet hastaları için insülin tedavisi zorunludur. İnsülin, vücudun ihtiyacı olan hormonu sağlar. Tip 2 diyabet hastalarında ise ilaç tedavisi, oral antidiyabetik ilaçlar veya insülin enjeksiyonları şeklinde olabilir. Bu ilaçlar kan şekeri seviyelerini düzenlemeye yardımcı olur.
+
+3. **Kan Şekeri Takibi:** Diyabet tedavisinde kan şekeri seviyelerinin düzenli olarak takip edilmesi önemlidir. Bu sayede tedavi planı gerektiğinde ayarlanabilir ve komplikasyonlar önlenebilir.
+
+4. **Düzenli Kontroller:** Diyabet hastalarının düzenli olarak doktor kontrolüne gitmeleri önemlidir. Bu kontrollerde kan şekeri seviyeleri, böbrek fonksiyonları, göz muayeneleri ve diğer organların durumu değerlendirilir.
+
+5. **Komplikasyonların Önlenmesi:** Diyabet, kalp hastalıkları, böbrek yetmezliği, göz problemleri ve sinir hasarı gibi komplikasyonlara yol açabilir. Bu nedenle diyabet hastalarının bu komplikasyonları önlemek için düzenli kontrolleri ve gerekli önlemleri alması önemlidir.
+
+Diyabet tedavisi multidisipliner bir yaklaşım gerektirir ve hastanın yaşam tarzı, sağlık durumu ve diğer faktörler dikkate alınarak kişiye özel bir tedavi planı oluşturulmalıdır. Bu nedenle, diyabet tedavisi konusunda uzman bir sağlık ekibi ile işbirliği yapmak önemlidir.
+
+## Diyabet komplikasyonları nelerdir?
+
+Diyabet, yüksek kan şekeri seviyelerine bağlı olarak vücutta çeşitli komplikasyonlara neden olabilen bir hastalıktır. Diyabetin uzun süre kontrol altında tutulmaması veya kötü yönetilmesi durumunda ortaya çıkan komplikasyonlar şunlardır:
+
+1. **Nöropati (Sinir Hasarı)**: Diyabet, periferik nöropati denilen sinir hasarına yol açabilir. Bu durum, ellerde ve ayaklarda uyuşma, karıncalanma, ağrı veya güçsüzlük gibi belirtilerle kendini gösterebilir.
+
+2. **Retinopati (Göz Problemleri)**: Diyabet, retinopati olarak adlandırılan göz hastalıklarına neden olabilir. Bu durum, görme kaybına yol açabilir ve hatta körlüğe kadar ilerleyebilir.
+
+3. **Nefropati (Böbrek Hasarı)**: Diyabet, böbreklerde hasara yol açabilir ve böbrek yetmezliğine neden olabilir. Bu durum, böbrek fonksiyonlarının azalmasına ve hatta böbrek yetmezliğine kadar ilerleyebilir.
+
+4. **Kardiyovasküler Hastalıklar**: Diyabet, kalp ve damar hastalıklarının riskini artırabilir. Kalp krizi, inme, periferik arter hastalığı gibi ciddi kardiyovasküler sorunlar diyabetik hastalarda daha sık görülebilir.
+
+5. **Diyabetik Ayak**: Diyabetik ayak, ayaklarda dolaşım bozukluğu ve sinir hasarına bağlı olarak gelişen bir durumdur. Ayaklarda yaraların geç iyileşmesi, enfeksiyon riskinin artması ve hatta amputasyon gerektiren durumlar diyabetik ayak komplikasyonları arasındadır.
+
+6. **Hipoglisemi (Düşük Kan Şekeri)**: Diyabet ilaçlarının veya insülinin aşırı dozda alınması durumunda kan şekeri seviyeleri tehlikeli derecede düşebilir. Hipoglisemi, bayılma, nöbetler hatta ölüme bile yol açabilir.
+
+Bu komplikasyonlar, diyabetin uzun vadeli etkileri arasında yer almaktadır. Diyabetin erken teşhisi, düzenli takibi ve uygun tedavisi ile bu komplikasyonların riski azaltılabilir veya geciktirilebilir. Bu nedenle, diyabet hastalarının düzenli olarak doktor kontrolünden geçmeleri ve önerilen tedavilere uymaları önemlidir.
+
+## Diyabet ve beslenme nasıl olmalıdır?
+
+Diyabet, vücudun kan şekeri seviyelerini düzenleme yeteneğinin bozulduğu bir durumdur. Diyabetli bireylerin beslenme düzeni, kan şekeri seviyelerini kontrol altında tutmalarına yardımcı olmak için oldukça önemlidir. İşte diyabetli bireyler için sağlıklı beslenme önerileri:
+
+1. **Dengeli Beslenme:** Diyabetli bireyler için dengeli bir beslenme planı önemlidir. Bu plan, karbonhidratlar, proteinler ve yağlar gibi besin gruplarını dengeli bir şekilde içermelidir.
+
+2. **Karbonhidrat Kontrolü:** Karbonhidratlar kan şekerini doğrudan etkiler, bu nedenle diyabetli bireylerin karbonhidrat alımını kontrol etmeleri önemlidir. Yavaş sindirilen karbonhidrat kaynakları tercih edilmelidir.
+
+3. **Sağlıklı Yağlar:** Sağlıklı yağlar, özellikle omega-3 yağ asitleri içeren yağlar tercih edilmelidir. Bu yağlar kalp sağlığını destekler ve kan şekeri seviyelerini dengelemeye yardımcı olabilir.
+
+4. **Posa İçeren Yiyecekler:** Lifli gıdalar, sindirimi yavaşlatır ve kan şekerinin ani yükselmesini engeller. Bu nedenle sebze, meyve, tam tahıllar gibi posa içeren yiyecekler tüketilmelidir.
+
+5. **Düşük Glisemik İndeksli Yiyecekler:** Glisemik indeksi düşük olan yiyecekler, kan şekerinin daha istikrarlı bir şekilde seyretmesine yardımcı olabilir. Bu nedenle beyaz un, şeker gibi yüksek glisemik indeksli yiyeceklerden kaçınılmalıdır.
+
+6. **Porsiyon Kontrolü:** Porsiyon kontrolü, kan şekerinin kontrol altında tutulmasına yardımcı olabilir. Besinleri dengeli porsiyonlarda tüketmek önemlidir.
+
+7. **Düzenli Öğünler:** Diyabetli bireyler için düzenli öğünler önemlidir. Uzun süre açlık kan şekerinin dengesini bozabilir, bu nedenle düzenli aralıklarla beslenmek önemlidir.
+
+Beslenme düzeni konusunda bireysel farklılıklar olabileceği için, diyabetli bireylerin bir beslenme uzmanı veya diyetisyen ile çalışmaları önerilir. Bu uzmanlar, bireye özel beslenme planları oluşturarak kan şekeri seviyelerinin kontrol altında tutulmasına yardımcı olabilirler.
+

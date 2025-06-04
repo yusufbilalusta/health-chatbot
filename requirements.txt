@@ -10,4 +10,11 @@ pypdf
 langchain_openai
 langchain-google-genai
 transformers
-huggingface_hub 
+huggingface_hub
+matplotlib
+seaborn
+scikit-learn
+pandas
+numpy
+chromadb 
+google-genai
