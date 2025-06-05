@@ -6,6 +6,7 @@ from langchain_google_genai import GoogleGenerativeAIEmbeddings
 from langchain_openai import OpenAIEmbeddings
 from langchain_chroma import Chroma
 from dotenv import load_dotenv
+from google import genai
 
 # Load environment variables
 load_dotenv()
@@ -26,8 +27,14 @@ class RAGEngine:
             # Check if GEMINI_API_KEY is set
             if not os.getenv("GEMINI_API_KEY"):
                 raise ValueError("GEMINI_API_KEY not found in environment variables")
-                
-            self.embeddings = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+            
+            # Configure Google Generative AI with API key
+            api_key = os.getenv("GEMINI_API_KEY")
+            # Doğrudan API anahtarını GoogleGenerativeAIEmbeddings'e geçir
+            self.embeddings = GoogleGenerativeAIEmbeddings(
+                model="models/embedding-001",
+                google_api_key=api_key
+            )
         else:  # OpenAI
             # Check if OPENAI_API_KEY is set
             if not os.getenv("OPENAI_API_KEY"):
@@ -100,7 +107,7 @@ class RAGEngine:
         # Load text files
         for txt_file in txt_files:
             try:
-                loader = TextLoader(txt_file)
+                loader = TextLoader(txt_file, encoding="utf-8")
                 documents.extend(loader.load())
                 print(f"Loaded text file: {txt_file}")
             except Exception as e:

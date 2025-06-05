@@ -7,6 +7,7 @@ from sklearn.metrics import precision_score, recall_score, f1_score, confusion_m
 import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
+import random
 
 # Import the models
 from models.intent_classifier import IntentClassifier
@@ -99,6 +100,10 @@ def evaluate_intent_classification():
     
     test_df = pd.DataFrame(test_data)
     
+    # Reduce the test set size for API quota management
+    # Randomly sample a smaller subset (25% of original)
+    test_df = test_df.sample(frac=0.25, random_state=42)
+    
     # Initialize results
     results = {
         "Intent Classifier": {"true": [], "pred": [], "time": []},
@@ -128,27 +133,41 @@ def evaluate_intent_classification():
             query = row["Text"]
             
             start_time = time.time()
-            pred_intent = openai_model.classify_intent_with_prompt(query)
-            end_time = time.time()
-            
-            results["OpenAI"]["true"].append(true_intent)
-            results["OpenAI"]["pred"].append(pred_intent)
-            results["OpenAI"]["time"].append(end_time - start_time)
+            try:
+                pred_intent = openai_model.classify_intent_with_prompt(query)
+                results["OpenAI"]["true"].append(true_intent)
+                results["OpenAI"]["pred"].append(pred_intent)
+                results["OpenAI"]["time"].append(time.time() - start_time)
+            except Exception as e:
+                print(f"Error with OpenAI for query '{query}': {str(e)}")
     
-    # Test Gemini
+    # Test Gemini with rate limiting
     if gemini_model:
         print("Testing Gemini model...")
-        for _, row in test_df.iterrows():
-            true_intent = row["Intent"]
-            query = row["Text"]
+        for i, row in enumerate(test_df.iterrows()):
+            true_intent = row[1]["Intent"]
+            query = row[1]["Text"]
+            
+            # Add delay every 10 requests to avoid rate limiting
+            if i > 0 and i % 10 == 0:
+                print(f"Pausing for 60 seconds to avoid Gemini API rate limits (processed {i}/{len(test_df)} queries)...")
+                time.sleep(60)
             
             start_time = time.time()
-            pred_intent = gemini_model.classify_intent_with_prompt(query)
-            end_time = time.time()
-            
-            results["Gemini"]["true"].append(true_intent)
-            results["Gemini"]["pred"].append(pred_intent)
-            results["Gemini"]["time"].append(end_time - start_time)
+            try:
+                pred_intent = gemini_model.classify_intent_with_prompt(query)
+                results["Gemini"]["true"].append(true_intent)
+                results["Gemini"]["pred"].append(pred_intent)
+                results["Gemini"]["time"].append(time.time() - start_time)
+                
+                # Add small delay between requests
+                time.sleep(1)
+            except Exception as e:
+                print(f"Error with Gemini for query '{query}': {str(e)}")
+                # If we hit quota limits, wait longer
+                if "RESOURCE_EXHAUSTED" in str(e):
+                    print("Hit Gemini API quota limit. Waiting 60 seconds before continuing...")
+                    time.sleep(60)
     
     # Calculate metrics
     metrics = {}
@@ -255,6 +274,11 @@ def evaluate_rag_performance():
         for query in queries:
             test_queries.append({"intent": intent, "query": query})
     
+    # Reduce the test set size for API quota management
+    # Randomly sample a smaller subset
+    random.shuffle(test_queries)
+    test_queries = test_queries[:4]  # Limit to just 4 queries total
+    
     # Initialize results
     results = {
         "OpenAI": {"response_time": [], "response_length": []},
@@ -268,44 +292,62 @@ def evaluate_rag_performance():
             intent = item["intent"]
             query = item["query"]
             
-            # Get relevant documents
-            start_time = time.time()
-            context = rag_engine_openai.get_relevant_documents(query)
-            
-            # Generate response
-            response = openai_model.get_response(query, intent, context)
-            end_time = time.time()
-            
-            results["OpenAI"]["response_time"].append(end_time - start_time)
-            results["OpenAI"]["response_length"].append(len(response))
-            
-            print(f"OpenAI - Query: {query}")
-            print(f"Response: {response[:100]}...")
-            print(f"Response time: {end_time - start_time:.2f}s")
-            print("---")
+            try:
+                # Get relevant documents
+                start_time = time.time()
+                context = rag_engine_openai.get_relevant_documents(query)
+                
+                # Generate response
+                response = openai_model.get_response(query, intent, context)
+                end_time = time.time()
+                
+                results["OpenAI"]["response_time"].append(end_time - start_time)
+                results["OpenAI"]["response_length"].append(len(response))
+                
+                print(f"OpenAI - Query: {query}")
+                print(f"Response: {response[:100]}...")
+                print(f"Response time: {end_time - start_time:.2f}s")
+                print("---")
+            except Exception as e:
+                print(f"Error with OpenAI RAG for query '{query}': {str(e)}")
     
-    # Test Gemini
+    # Test Gemini with rate limiting
     if gemini_model and rag_engine_gemini:
         print("Testing Gemini RAG...")
-        for item in test_queries:
+        for i, item in enumerate(test_queries):
             intent = item["intent"]
             query = item["query"]
             
-            # Get relevant documents
-            start_time = time.time()
-            context = rag_engine_gemini.get_relevant_documents(query)
+            # Add delay every 2 requests to avoid rate limiting
+            if i > 0 and i % 2 == 0:
+                print(f"Pausing for 60 seconds to avoid Gemini API rate limits...")
+                time.sleep(60)
             
-            # Generate response
-            response = gemini_model.get_response(query, intent, context)
-            end_time = time.time()
-            
-            results["Gemini"]["response_time"].append(end_time - start_time)
-            results["Gemini"]["response_length"].append(len(response))
-            
-            print(f"Gemini - Query: {query}")
-            print(f"Response: {response[:100]}...")
-            print(f"Response time: {end_time - start_time:.2f}s")
-            print("---")
+            try:
+                # Get relevant documents
+                start_time = time.time()
+                context = rag_engine_gemini.get_relevant_documents(query)
+                
+                # Generate response
+                response = gemini_model.get_response(query, intent, context)
+                end_time = time.time()
+                
+                results["Gemini"]["response_time"].append(end_time - start_time)
+                results["Gemini"]["response_length"].append(len(response))
+                
+                print(f"Gemini - Query: {query}")
+                print(f"Response: {response[:100]}...")
+                print(f"Response time: {end_time - start_time:.2f}s")
+                print("---")
+                
+                # Add small delay between requests
+                time.sleep(2)
+            except Exception as e:
+                print(f"Error with Gemini RAG for query '{query}': {str(e)}")
+                # If we hit quota limits, wait longer
+                if "RESOURCE_EXHAUSTED" in str(e):
+                    print("Hit Gemini API quota limit. Waiting 60 seconds before continuing...")
+                    time.sleep(60)
     
     # Calculate metrics
     rag_metrics = {}
