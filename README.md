@@ -27,7 +27,6 @@ Sağlık Chatbotu şu adımlarla çalışır:
 4. **Yanıt Oluşturma**: Seçilen LLM (OpenAI veya Gemini), ilgili bağlamı kullanarak doğru ve bilgilendirici bir yanıt üretir.
 5. **Yanıtın Sunulması**: Oluşturulan yanıt, kullanıcıya chatbot arayüzü üzerinden sunulur.
 
-![Chatbot Mimarisi](https://github.com/yusufbilalusta/health-chatbot/blob/main/screenshots/architecture.png)
 
 ## Kurulum
 
