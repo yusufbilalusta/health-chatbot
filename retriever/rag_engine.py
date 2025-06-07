@@ -24,9 +24,8 @@ class RAGEngine:
         """
         self.model_type = model_type
         
-        # Kullanıcının yazma izni olan bir dizin kullanmak için kullanıcının ev dizininde oluşturalım
-        user_home = os.path.expanduser("~")
-        self.base_dir = os.path.join(user_home, ".health_chatbot_db")
+        # Veritabanını proje dizini içinde oluştur
+        self.base_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "db")
         os.makedirs(self.base_dir, exist_ok=True)
         
         # Her model için benzersiz bir dizin oluşturuyoruz
@@ -76,7 +75,7 @@ class RAGEngine:
         unique_id = str(uuid.uuid4())[:8]
         timestamp = str(int(time.time()))
         
-        # Yeni dizin yolu oluştur
+        # Yeni dizin yolu oluştur (proje dizini içinde)
         new_directory = os.path.join(
             self.base_dir, 
             f"chroma_db_health_{self.model_type.lower()}_{timestamp}_{unique_id}"
