@@ -1,114 +1,158 @@
-# 🩺 Sağlık Bilgilendirme Chatbot
+# Sağlık Bilgilendirme Chatbotu
 
-Bu proje, kullanıcının sağlıkla ilgili sorularını anlayarak uygun bilgilendirme yapan bir chatbot uygulamasıdır. Sistem, kullanıcının niyetini (intent) sınıflandırır ve ya hazır cevaplar döndürür ya da bir tıbbi makale veri tabanından içerik getirir.
+Bu proje, kullanıcı niyetini (intent) sınıflandıran ve sağlık bilgileri sunan bir chatbot sistemi içerir. Sistem, kullanıcı sorularını analiz ederek uygun kategoride sınıflandırır ve doğru, güncel sağlık bilgilerini sunmak için Retrieval Augmented Generation (RAG) teknolojisini kullanır.
 
-## 🎯 Proje Özellikleri
+## Proje Özellikleri
 
-- **Intent Classification**: Kullanıcı mesajlarını 7 farklı niyet kategorisine sınıflandırır
-- **RAG (Retrieval Augmented Generation)**: Tıbbi makalelerden ilgili içeriği getirir
-- **Model Karşılaştırması**: OpenAI ve Gemini modellerinin performans karşılaştırması
-- **Streamlit Arayüzü**: Kullanıcı dostu bir arayüz
+- **Kullanıcı Niyet Sınıflandırma**: Kullanıcı mesajlarını 7 farklı niyet kategorisinde sınıflandırır:
+  - Greeting (Selamlama)
+  - Goodbye (Vedalaşma)
+  - Refusal (Reddetme)
+  - Symptoms (Belirtiler)
+  - Disease_Info (Hastalık Bilgisi)
+  - Treatment_Info (Tedavi Bilgisi)
+  - Appointment_Info (Randevu Bilgisi)
 
-## 🧠 Intent Sınıfları
+- **RAG Sistemi**: Hastalık, belirtiler ve tedavi bilgileri için gerçek sağlık verilerini kullanan retrieval sistemi
+- **Çoklu Model Desteği**: OpenAI GPT ve Google Gemini modellerini destekler
+- **Değerlendirme Sistemi**: Modellerin performansını karşılaştırmak için ölçüm araçları
 
-- **Greeting**: Selamlama
-- **Goodbye**: Vedalaşma
-- **Refusal**: Yanıtlama istememe
-- **Symptoms**: Semptom sorgulama ("baş ağrım var ne olabilir?")
-- **Disease_Info**: Hastalık hakkında bilgi isteme ("diyabet nedir?")
-- **Treatment_Info**: Tedavi hakkında bilgi isteme ("astım için hangi ilaçlar kullanılır?")
-- **Appointment_Info**: Randevu/klinik işlemleri hakkında soru
+## Çalışma Mantığı
 
-## 🏗️ Proje Yapısı
+Sağlık Chatbotu şu adımlarla çalışır:
 
-```
-chatbot-health/
-├── data/
-│   ├── intents_dataset/
-│   │   └── health_intents.csv
-│   ├── rag_corpus/
-│   │   ├── diabet.pdf
-│   │   └── migren.txt
-│   └── generate_intents_data.py
-├── models/
-│   ├── gpt_model.py
-│   ├── gemini_model.py
-│   └── intent_classifier.py
-├── retriever/
-│   └── rag_engine.py
-├── app/
-│   └── streamlit_app.py
-├── evaluation_results/
-│   └── all_metrics.json
-├── evaluate_health_chatbot.py
-├── README.md
-└── requirements.txt
+1. **Kullanıcı Sorusu Alınması**: Kullanıcı, chatbot arayüzünden bir soru sorar.
+2. **Niyet Sınıflandırma**: Intent Classifier, kullanıcı sorusunu analiz ederek hangi kategoriye ait olduğunu belirler.
+3. **Bilgi Retrieval**: RAG sistemi, sağlık veritabanından ilgili belgeleri bulur (hastalık, belirti veya tedavi soruları için).
+4. **Yanıt Oluşturma**: Seçilen LLM (OpenAI veya Gemini), ilgili bağlamı kullanarak doğru ve bilgilendirici bir yanıt üretir.
+5. **Yanıtın Sunulması**: Oluşturulan yanıt, kullanıcıya chatbot arayüzü üzerinden sunulur.
+
+![Chatbot Mimarisi](https://github.com/yusufbilalusta/health-chatbot/blob/main/screenshots/architecture.png)
+
+## Kurulum
+
+### Gereksinimler
+
+- Python 3.8 veya daha yüksek bir sürüm
+- pip (Python paket yöneticisi)
+
+### Adım 1: Projeyi İndirin
+
+```bash
+git clone https://github.com/yusufbilalusta/health-chatbot
+cd health-chatbot
 ```
 
-## 🚀 Kurulum
+### Adım 2: Sanal Ortam Oluşturun ve Etkinleştirin
 
-1. Gerekli kütüphaneleri yükleyin:
+```bash
+# Sanal ortam oluşturma
+python3 -m venv myenv
+
+# Windows'ta etkinleştirme
+myenv\Scripts\activate
+
+# Linux/Mac'te etkinleştirme
+source myenv/bin/activate
+```
+
+### Adım 3: Gerekli Paketleri Yükleyin
 
 ```bash
 pip install -r requirements.txt
 ```
 
-2. API anahtarlarınızı `.env` dosyasında tanımlayın:
+### Adım 4: API Anahtarlarını Ayarlayın
+
+Projenin kök dizininde `.env` adında bir dosya oluşturun ve aşağıdaki API anahtarlarını ekleyin:
 
 ```
-OPENAI_API_KEY=your_openai_api_key
-GOOGLE_API_KEY=your_google_api_key
+OPENAI_API_KEY='your_openai_api_key'
+GEMINI_API_KEY='your_gemini_api_key'
 ```
 
-3. Intent sınıflandırıcısı için veri seti oluşturun:
+## Kullanım
+
+### Chatbot Uygulamasını Çalıştırma
 
 ```bash
-python data/generate_intents_data.py
+python3 app.py
 ```
 
-4. RAG için tıbbi makaleleri `data/rag_corpus/` dizinine ekleyin.
+Bu komut, Streamlit tabanlı chatbot arayüzünü başlatacaktır. Web tarayıcınızda otomatik olarak açılacak ve chatbot arayüzüne erişebileceksiniz.
 
-## 📊 Eğitim ve Değerlendirme
+### Örnek Sorular
 
-Intent sınıflandırıcıyı eğitmek ve değerlendirmek için:
+Chatbot'a şu tür sorular sorabilirsiniz:
+
+- "Merhaba, nasılsınız?"
+- "Baş ağrısı için ne yapmalıyım?"
+- "Diyabet nedir?"
+- "Hipertansiyon tedavisi nasıl yapılır?"
+- "Doktor randevusu nasıl alabilirim?"
+
+## Model Değerlendirme
+
+Chatbot modellerinin performansını değerlendirmek için: (Streamlit uygulamasından model performansını karşılaştır butonu ile çalıştırılabilir.)
 
 ```bash
-python evaluate_health_chatbot.py
+python3 evaluate_health_chatbot.py
 ```
 
-Bu komut, intent sınıflandırma ve RAG performansını değerlendirir ve sonuçları `evaluation_results/` dizinine kaydeder.
+Bu komut, farklı modellerin (OpenAI, Gemini) niyet sınıflandırma ve RAG performansını karşılaştıran grafikleri ve metrikleri oluşturacaktır.
 
-## 🖥️ Uygulamayı Çalıştırma
+## Proje Yapısı
 
-```bash
-streamlit run app/streamlit_app.py
+```
+health-chatbot/
+├── app.py                      # Ana uygulama ve başlatma kodu
+├── app/
+│   └── streamlit_app.py        # Streamlit web arayüzü
+├── data/
+│   ├── download_dataset.py     # Veri seti indirme scripti
+│   ├── intents_dataset/        # Niyet veri seti
+│   └── rag_corpus/             # RAG için sağlık verileri
+├── db/                         # Vektor veritabanı dosyaları
+├── models/
+│   ├── intent_classifier.py    # Niyet sınıflandırma modeli
+│   ├── gemini_model.py         # Google Gemini modeli
+│   └── gpt_model.py            # OpenAI GPT modeli
+├── retriever/
+│   └── rag_engine.py           # RAG sistemi
+├── evaluate_health_chatbot.py  # Model değerlendirme scripti
+└── requirements.txt            # Gerekli paketler
 ```
 
-Uygulama http://localhost:8501 adresinde çalışacaktır.
+## Teknik Detaylar
 
-## 📝 Model Performans Karşılaştırması
+### Niyet Sınıflandırma
 
-Modeller aşağıdaki metriklerle değerlendirilmiştir:
+Sistem, kullanıcı mesajlarını sınıflandırmak için sentence-transformers tabanlı bir makine öğrenimi modeli kullanır. Bu model, önceden hazırlanmış bir veri seti üzerinde eğitilmiştir ve yeni mesajların hangi kategoriye ait olduğunu tahmin edebilir.
 
-- Precision
-- Recall
-- F1 Score
-- Confusion Matrix
+### RAG Sistemi
 
-Intent sınıflandırma performansı için model karşılaştırma sonuçları `intent_classification_comparison.csv` dosyasında, RAG performans sonuçları ise `rag_performance_comparison.csv` dosyasında bulunabilir.
+Retrieval Augmented Generation (RAG), büyük dil modellerinin doğru ve güncel bilgiler sunmasını sağlayan bir tekniktir. Sistem:
 
-## 🛠️ Kullanılan Teknolojiler
+1. Kullanıcı sorusuna en uygun sağlık verilerini bulur
+2. Bu verileri model tarafından kullanılacak bağlam olarak sağlar
+3. Büyük dil modeli, bu bağlamı kullanarak daha doğru ve bilgilendirici yanıtlar oluşturur
 
-- LangChain
-- Sentence Transformers
-- ChromaDB
-- Streamlit
-- Google Gemini API
-- OpenAI API
-- Scikit-learn
-- Pandas
-- Matplotlib & Seaborn
+Bu yaklaşım, modelin halüsinasyon oluşturma riskini azaltır ve verilen bilgilerin güvenilirliğini artırır.
 
-## 📄 Lisans
+## Arayüz Görüntüleri
 
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için LICENSE dosyasına bakınız. 
+![Ana Sayfa](https://github.com/yusufbilalusta/health-chatbot/blob/main/screenshots/homepage.png)
+
+![Intent Sınıflandırma](./screenshots/intent.png)
+![Intent Sınıflandırma](./screenshots/intent2.png)
+
+![Sağlık Bilgileri Sorgusu](./screenshots/sorgu.png)
+
+
+![Model Performansı](./screenshots/performans1.png)
+![Model Performansı](./screenshots/performans2.png)
+![Model Performansı](./screenshots/performans3.png)
+
+## Lisans
+
+Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır. 
