@@ -82,3 +82,194 @@ Diyabet, vücudun kan şekeri seviyelerini düzenleme yeteneğinin bozulduğu bi
 
 Beslenme düzeni konusunda bireysel farklılıklar olabileceği için, diyabetli bireylerin bir beslenme uzmanı veya diyetisyen ile çalışmaları önerilir. Bu uzmanlar, bireye özel beslenme planları oluşturarak kan şekeri seviyelerinin kontrol altında tutulmasına yardımcı olabilirler.
 
+Harika bir başlangıç! Diyabet hakkında oldukça kapsamlı ve anlaşılır bilgiler sunmuşsunuz. Bu verisetini daha da genişleterek, diyabetin farklı yönlerini, güncel yaklaşımları ve hastaların yaşam kalitesini artırmaya yönelik ipuçlarını ekleyebiliriz.
+
+İşte mevcut bilgilerinize ekleyebileceğiniz bazı başlıklar ve içerik önerileri:
+Diyabetin Sınıflandırılması ve Özel Durumlar
+
+Diyabet, sadece Tip 1 ve Tip 2 olarak değil, farklı alt tiplere ve özel durumlara göre de sınıflandırılabilir.
+
+    Gestasyonel Diyabet (Gebelik Diyabeti): Hamilelik sırasında ilk kez ortaya çıkan veya teşhis edilen yüksek kan şekeri durumudur. Genellikle doğumdan sonra düzelir, ancak gestasyonel diyabet geçiren kadınların ileriki yaşlarda Tip 2 diyabet geliştirme riski daha yüksektir. Hamilelik süresince dikkatli beslenme ve kan şekeri takibi ile yönetilir.
+    Gizli Şeker (Prediyabet): Kan şekeri seviyeleri normalden yüksek, ancak diyabet tanısı koymak için yeterli olmayan durumdur. Prediyabetli bireylerde Tip 2 diyabet gelişme riski yüksektir. Yaşam tarzı değişiklikleri (diyet ve egzersiz) ile diyabetin gelişimi önlenebilir veya geciktirilebilir.
+    LADA (Latent Autoimmune Diabetes in Adults): Yetişkinlerde görülen, yavaş seyreden bir Tip 1 diyabet türüdür. Başlangıçta Tip 2 diyabet gibi görünebilir ancak insülin üreten hücrelere karşı otoimmün bir saldırı söz konusudur.
+    MODY (Maturity-Onset Diabetes of the Young): Genetik bir kusurdan kaynaklanan, genellikle genç yaşlarda ortaya çıkan ve otoimmün olmayan bir diyabet türüdür. Kalıtımsaldır ve farklı gen mutasyonlarına bağlı olarak birçok alt tipi bulunur.
+
+Diyabet Yönetiminde Teknoloji ve Yenilikler
+
+Teknolojinin gelişimi, diyabet yönetimini daha kolay ve etkili hale getirmektedir.
+
+    Sürekli Glikoz Monitörleri (SGM / CGM): Cilt altına yerleştirilen küçük bir sensör aracılığıyla gün boyunca sürekli olarak glikoz seviyelerini ölçen cihazlardır. Bu cihazlar, parmak delme ihtiyacını azaltır ve kan şekerinin nasıl değiştiğini daha iyi anlamayı sağlar. Hastalar ve doktorlar için değerli veriler sunar.
+    İnsülin Pompaları: İnsülini vücuda sürekli ve programlanabilir dozlarda veren küçük cihazlardır. Hastaların daha esnek bir yaşam tarzı benimsemesine ve kan şekeri dalgalanmalarını daha iyi kontrol etmesine yardımcı olur.
+    Akıllı İnsülin Kalemleri: İnsülin enjeksiyonlarının zamanını ve dozunu takip edebilen, hatta bazıları akıllı telefon uygulamalarıyla senkronize olabilen cihazlardır.
+    Yapay Pankreas Sistemleri (Hibrit Kapalı Döngü Sistemleri): Glikoz monitörünü insülin pompasıyla birleştiren ve algoritmalar aracılığıyla insülin dozunu otomatik olarak ayarlayan sistemlerdir. Bu sistemler, kan şekerini daha istikrarlı bir şekilde yönetmeyi hedefler.
+    Mobil Uygulamalar ve Tele-Diyabet: Kan şekeri kayıtlarını tutma, beslenme takibi, egzersiz planlama ve doktorla uzaktan iletişim kurma imkanı sunan mobil uygulamalar, diyabet yönetimini kolaylaştırır. Tele-tıp, özellikle kırsal bölgelerdeki hastalara sağlık hizmeti ulaştırmada önemli bir rol oynar.
+
+Diyabet ve Fiziksel Aktivite
+
+Fiziksel aktivite, diyabet yönetiminin vazgeçilmez bir parçasıdır ve doğru şekilde yapıldığında kan şekeri kontrolüne önemli katkı sağlar.
+
+    Faydaları:
+        İnsülin duyarlılığını artırır (hücrelerin insüline daha iyi yanıt vermesini sağlar).
+        Kan şekerini düşürür.
+        Kilo kontrolüne yardımcı olur.
+        Kardiyovasküler sağlığı iyileştirir (kalp krizi ve inme riskini azaltır).
+        Stresi azaltır ve ruh halini iyileştirir.
+    Önerilen Aktivite Türleri:
+        Aerobik Egzersizler: Yürüyüş, koşu, yüzme, bisiklete binme, dans gibi orta yoğunluktaki aktiviteler haftanın çoğu günü en az 150 dakika yapılmalıdır.
+        Direnç Egzersizleri: Ağırlık kaldırma, direnç bantları veya vücut ağırlığıyla yapılan egzersizler haftada en az 2-3 gün yapılmalıdır. Kas kütlesini artırarak metabolizmayı hızlandırır ve insülin duyarlılığını artırır.
+    Dikkat Edilmesi Gerekenler:
+        Egzersiz öncesi ve sonrası kan şekeri takibi önemlidir.
+        Hipoglisemi (düşük kan şekeri) riskini azaltmak için egzersiz öncesi veya sırasında karbonhidrat alımı gerekebilir.
+        Susuz kalmamak için yeterince sıvı tüketilmelidir.
+        Ayak sağlığına dikkat edilmeli, uygun ayakkabılar giyilmelidir.
+        Göz veya böbrek komplikasyonları olan bireylerin egzersiz programlarını doktorlarıyla konuşmaları önemlidir.
+
+Diyabet ve Zihinsel Sağlık
+
+Kronik bir hastalıkla yaşamak, diyabetli bireylerin zihinsel sağlığını etkileyebilir.
+
+    Diyabet Yorgunluğu (Burnout): Diyabet yönetiminin sürekli ve yorucu doğası nedeniyle ortaya çıkan duygu durumudur. Hastalar ilaçlarını kullanmaktan, kan şekerini takip etmekten veya diyetlerine uymaktan sıkılmış hissedebilirler.
+    Depresyon ve Anksiyete: Diyabetli bireylerde depresyon ve anksiyete riski genel popülasyona göre daha yüksektir. Bu durumlar, kan şekeri kontrolünü de olumsuz etkileyebilir.
+    Stres Yönetimi: Stres, kan şekeri seviyelerini yükseltebilir. Meditasyon, yoga, derin nefes egzersizleri gibi stres yönetimi teknikleri faydalı olabilir.
+    Psikososyal Destek: Destek grupları, psikolog veya terapist ile görüşmek, diyabetle başa çıkmada ve zihinsel sağlığı korumada yardımcı olabilir.
+
+Diyabet ve Ayak Sağlığı
+
+Diyabetik ayak komplikasyonları oldukça ciddidir ve önlenmesi büyük önem taşır.
+
+    Nedenleri: Sinir hasarı (nöropati) nedeniyle ayakta his kaybı ve dolaşım bozukluğu (periferik arter hastalığı) nedeniyle yaraların geç iyileşmesi.
+    Önlemler:
+        Günlük Ayak Kontrolü: Her gün ayakları kesik, yara, kızarıklık, şişlik veya kabarcık açısından kontrol etmek.
+        Ayak Hijyeni: Ayakları her gün ılık suyla yıkamak, iyice kurulamak (özellikle parmak aralarını) ve nemlendirici kullanmak.
+        Uygun Ayakkabı ve Çorap Seçimi: Ayaklara tam uyan, rahat, dikişsiz çoraplar ve ayakları sıkmayan, geniş burunlu ayakkabılar tercih etmek.
+        Profesyonel Ayak Bakımı: Tırnak kesimi gibi pedikür işlemleri için ayak sağlığı uzmanına (podolog) başvurmak.
+        Sigaradan Kaçınma: Sigara, dolaşım sorunlarını kötüleştirerek ayak komplikasyonları riskini artırır.
+    Erken Müdahale: Ayakta herhangi bir yara veya değişiklik fark edildiğinde derhal doktora başvurmak, ciddi komplikasyonları önlemede hayati öneme sahiptir.
+
+Diyabet ve Göz Sağlığı
+
+Diyabet, göz sağlığını ciddi şekilde etkileyebilir ve düzenli göz muayeneleri kritik öneme sahiptir.
+
+    Diyabetik Retinopati: Yüksek kan şekerinin gözün arkasındaki ışığa duyarlı retina tabakasındaki küçük kan damarlarına zarar vermesiyle ortaya çıkar. Görme kaybına ve körlüğe yol açabilir. Genellikle erken evrelerde belirti vermez.
+    Diyabetik Makula Ödemi: Retinopatinin bir sonucu olarak, retinanın merkezi kısmı olan makulada sıvı birikmesi. Bulanık görme ve görme keskinliğinde azalmaya neden olabilir.
+    Katarakt: Göz merceğinin bulanıklaşmasıdır. Diyabetli bireylerde daha genç yaşlarda ortaya çıkma ve daha hızlı ilerleme eğilimindedir.
+    Glokom: Göz içi basıncının artmasıyla optik sinire zarar veren bir durumdur. Diyabetli bireylerde glokom riski artar.
+    Önlemler:
+        Yılda En Az Bir Kez Göz Muayenesi: Diyabetik retinopati gibi durumlar erken evrelerde belirti vermediği için düzenli göz muayeneleri çok önemlidir.
+        Kan Şekeri Kontrolü: Kan şekerini hedeflenen aralıkta tutmak, göz komplikasyonlarının riskini azaltır.
+        Kan Basıncı ve Kolesterol Kontrolü: Bu faktörler de göz sağlığını etkiler.
+
+Diyabet ve Böbrek Sağlığı (Diyabetik Nefropati)
+
+Diyabet, böbreklere ciddi zarar verebilir ve kronik böbrek hastalığına yol açabilir.
+
+    Mekanizma: Yüksek kan şekeri, böbreklerdeki küçük damarlara ve filtreleme ünitelerine (glomerüller) zarar verir. Zamanla böbrekler atık ürünleri kandan süzme yeteneğini kaybeder.
+    Belirtiler: Erken evrelerde genellikle belirti vermez. İlerleyen evrelerde ayaklarda, bacaklarda ve göz kapaklarında şişlik, yorgunluk, iştahsızlık, kas krampları gibi belirtiler ortaya çıkabilir.
+    Önlemler:
+        Kan Şekeri Kontrolü: Böbrek hasarını önlemenin en önemli yoludur.
+        Kan Basıncı Kontrolü: Yüksek tansiyon böbreklere ek yük bindirir, bu nedenle kan basıncının kontrol altında tutulması çok önemlidir.
+        Protein Tüketimi: Böbrek hastalığı ilerledikçe protein alımının kısıtlanması gerekebilir.
+        Yıllık İdrar Testleri: İdrarda albümin (mikroalbüminüri) arayarak böbrek hasarının erken belirtileri tespit edilebilir.
+        Böbrek Fonksiyon Testleri: Kan testleri ile böbrek fonksiyonları düzenli olarak takip edilir.
+
+Harika! Diyabet hakkındaki verisetinizi daha da zenginleştirelim. Önceki genişletmelerde ele aldığımız konuları derinleştirerek ve yeni, önemli başlıklar ekleyerek çok daha kapsamlı bir kaynak oluşturalım.
+Diyabet Risk Faktörleri ve Erken Tanı
+
+Diyabetin erken teşhisi ve risk faktörlerinin bilinmesi, hastalığın önlenmesi veya yönetilmesi açısından kritik öneme sahiptir.
+
+    Tip 1 Diyabet Risk Faktörleri:
+        Genetik Yatkınlık: Ailede Tip 1 diyabet öyküsü olan bireylerde risk artar.
+        Coğrafi Konum: Ekvatordan uzak bölgelerde (örneğin Kuzey Avrupa ülkeleri) daha sık görülür.
+        Viral Enfeksiyonlar: Bazı viral enfeksiyonların (kabakulak, kızamıkçık, koksaki virüsü) otoimmün yanıtı tetikleyebileceği düşünülmektedir.
+        Erken Çocukluk Dönemi Beslenmesi: Erken yaşta inek sütü maruziyeti gibi çevresel faktörlerin rolü araştırılmaktadır.
+    Tip 2 Diyabet Risk Faktörleri:
+        Obezite ve Aşırı Kilo: En önemli risk faktörüdür. Karın çevresindeki yağlanma riski daha da artırır.
+        Hareketsiz Yaşam Tarzı: Fiziksel aktivite eksikliği insülin direncini artırır.
+        Genetik Yatkınlık: Ailede Tip 2 diyabet öyküsü (anne, baba veya kardeşlerde) riski önemli ölçüde artırır.
+        Yaş: Yaş ilerledikçe risk artar, özellikle 45 yaşından sonra.
+        Etnik Köken: Bazı etnik gruplarda (Asyalılar, Afrika kökenliler, Latin Amerikalılar, Yerli Amerikalılar) risk daha yüksektir.
+        Gestasyonel Diyabet Öyküsü: Hamilelikte gestasyonel diyabet geçiren kadınlar, ileriki dönemde Tip 2 diyabet geliştirme riski altındadır.
+        Polikistik Over Sendromu (PKOS): Kadınlarda insülin direnci ile ilişkili bir durumdur ve Tip 2 diyabet riskini artırır.
+        Yüksek Tansiyon ve Yüksek Kolesterol: Bu durumlar genellikle insülin direnci ile birlikte görülür ve diyabet riskini artırır.
+    Erken Tanı Yöntemleri:
+        Açlık Kan Şekeri Testi: 8 saatlik açlık sonrası ölçülen kan şekeri seviyesi.
+        Oral Glikoz Tolerans Testi (OGTT): Açlık sonrası belli miktarda glikozlu su içildikten 2 saat sonraki kan şekeri ölçümü. Prediyabet ve diyabet teşhisinde kullanılır.
+        HbA1c (Glikozillenmiş Hemoglobin) Testi: Son 2-3 aydaki ortalama kan şekeri seviyesini gösterir. Diyabet teşhisi ve takibinde yaygın olarak kullanılır.
+    Tarama ve Önleme: Yüksek risk grubundaki bireylerin düzenli olarak taranması ve yaşam tarzı değişiklikleri ile diyabetin önlenmesi veya geciktirilmesi mümkündür.
+
+Diyabetin Akut Komplikasyonları
+
+Diyabetin uzun vadeli komplikasyonlarının yanı sıra, kan şekerinin ani ve aşırı yükselmesi veya düşmesi sonucu ortaya çıkan akut komplikasyonlar da hayati tehlike taşıyabilir.
+
+    Diyabetik Ketoasidoz (DKA): Genellikle Tip 1 diyabetlilerde (ancak Tip 2 diyabetlilerde de görülebilir) insülin eksikliği nedeniyle vücudun enerji için yağları yakmaya başlaması sonucu kanda keton adı verilen asitlerin birikmesi durumudur. Belirtileri arasında şiddetli susuzluk, sık idrara çıkma, karın ağrısı, bulantı, kusma, hızlı ve derin nefes alma (Kussmaul solunumu) ve meyvemsi nefes kokusu bulunur. Acil tıbbi müdahale gerektirir.
+    Hiperglisemik Hiperosmolar Nonketotik Sendrom (HHNS): Genellikle Tip 2 diyabetlilerde, çok yüksek kan şekeri seviyeleri ve şiddetli dehidrasyon ile karakterizedir. Ketoasidozda olduğu gibi keton birikimi belirgin değildir. Yaşlı hastalarda, enfeksiyonlar veya yetersiz sıvı alımı durumlarında tetiklenebilir. Bilinç bulanıklığı, konfüzyon, nöbetler gibi ciddi nörolojik belirtilerle seyredebilir. Acil tıbbi müdahale gerektirir.
+    Hipoglisemi (Düşük Kan Şekeri): Diyabet ilaçlarının (özellikle insülin veya sülfonilüreler) aşırı dozda kullanılması, öğün atlama, yetersiz karbonhidrat alımı veya aşırı egzersiz sonucu kan şekerinin tehlikeli derecede düşmesidir. Belirtileri arasında titreme, terleme, çarpıntı, açlık, baş dönmesi, konfüzyon, sinirlilik, konsantrasyon güçlüğü bulunur. Şiddetli hipoglisemi bilinç kaybı ve nöbetlere yol açabilir. Hızlı etkili karbonhidrat (meyve suyu, şekerli içecek) ile tedavi edilir.
+
+Diyabet ve Kalp Sağlığı
+
+Diyabet, kalp-damar hastalıkları için önemli bir risk faktörüdür ve bu alandaki komplikasyonlar diyabetli bireylerde en sık ölüm nedenidir.
+
+    Koroner Arter Hastalığı: Diyabet, kalp damarlarında plak birikimini (ateroskleroz) hızlandırır, bu da kalbe kan akışını kısıtlayarak anjina (göğüs ağrısı) veya kalp krizine yol açabilir.
+    İnme (Felç): Beyni besleyen damarlarda tıkanıklık veya kanama sonucu inme riski diyabetli bireylerde artar.
+    Periferik Arter Hastalığı (PAH): Bacaklardaki kan damarlarının daralması veya tıkanmasıdır. Ayak ülserleri, ağrı ve amputasyon riskini artırır.
+    Kalp Yetmezliği: Diyabet, kalbin kan pompalama yeteneğini zayıflatabilir.
+    Yönetim Stratejileri:
+        Kan Şekeri Kontrolü: Kalp-damar riskini azaltmanın temelidir.
+        Kan Basıncı Kontrolü: Yüksek tansiyon, kalp-damar hastalıkları riskini katlar. Hedef kan basıncı seviyelerine ulaşmak önemlidir.
+        Kolesterol Kontrolü: LDL ("kötü" kolesterol) seviyelerini düşürmek, statin gibi ilaçlarla önemlidir.
+        Sigarayı Bırakma: Sigara, kalp-damar hastalığı riskini dramatik bir şekilde artırır.
+        Düzenli Egzersiz ve Sağlıklı Beslenme: Kilo kontrolü ve genel kalp sağlığı için kritik öneme sahiptir.
+        Düşük Doz Aspirin: Bazı yüksek riskli diyabetli bireylerde doktor önerisiyle kullanılabilir.
+
+Diyabet ve Sindirim Sistemi Sorunları
+
+Diyabetin sinir hasarı ve dolaşım bozuklukları, sindirim sistemi üzerinde de olumsuz etkiler yaratabilir.
+
+    Gastroparezi (Mide Felci): Yüksek kan şekerinin mideden bağırsağa yiyecek geçişini kontrol eden sinirlere zarar vermesi sonucu ortaya çıkar. Mide boşalması yavaşlar veya durur. Belirtileri arasında erken doyma, bulantı, kusma, şişkinlik, reflü ve iştahsızlık bulunur. Kan şekeri kontrolünü de zorlaştırabilir.
+    Diyabetik İshal veya Kabızlık: Otonom sinir sistemindeki hasar bağırsak hareketlerini etkileyebilir. Kronik ishal veya kabızlık görülebilir.
+    Karaciğer Yağlanması (NASH - Non-alkolik Steatohepatit): Tip 2 diyabet ve obezite ile ilişkili, karaciğerde yağ birikimi ve iltihaplanma durumudur. İlerleyici karaciğer hastalığına yol açabilir.
+    Yönetim: Sık ve küçük öğünler, lifli gıdaların ayarlanması, bazı ilaçlar ve kan şekeri kontrolü ile bu sorunlar yönetilebilir.
+
+Diyabet ve Oral Sağlık
+
+Diyabet, ağız ve diş sağlığını da etkiler ve diyabetli bireylerde oral enfeksiyon riski artar.
+
+    Periodontal Hastalık (Diş Eti İltihabı ve Diş Eti Hastalığı): Yüksek kan şekeri, diş etlerinin iltihaplanmasına ve kemik kaybına yol açarak dişlerin gevşemesine veya düşmesine neden olabilir. Diyabetli bireylerde periodontal hastalık riski daha yüksektir ve daha şiddetli seyredebilir.
+    Ağız Kuruluğu (Kserostomi): Diyabet, tükürük üretimini azaltabilir, bu da ağız kuruluğuna yol açar. Ağız kuruluğu, diş çürüğü ve diş eti hastalığı riskini artırır.
+    Pamukçuk (Kandidiyaz): Ağızda mantar enfeksiyonu riskini artırır.
+    Tat Alma Bozuklukları: Yüksek kan şekeri ve sinir hasarı tat alma duyusunu etkileyebilir.
+    Önlemler:
+        İyi Ağız Hijyeni: Günde iki kez diş fırçalama ve diş ipi kullanma.
+        Düzenli Diş Kontrolleri: Yılda en az iki kez diş hekimi ziyareti.
+        Kan Şekeri Kontrolü: En iyi ağız sağlığı için kan şekeri seviyelerini hedeflenen aralıkta tutmak.
+        Sigarayı Bırakma: Sigara oral enfeksiyon riskini artırır.
+
+Diyabet ve Cilt Sorunları
+
+Diyabet, cilt üzerinde de çeşitli sorunlara yol açabilir, çünkü yüksek kan şekeri kan damarlarını ve sinirleri etkiler.
+
+    Bakteriyel Enfeksiyonlar: Diyabetlilerde apse, çıban, folikülit gibi bakteriyel enfeksiyonlar daha sık görülebilir.
+    Mantar Enfeksiyonları: Özellikle kandidiyazis (pamukçuk), kasık, koltuk altı gibi nemli bölgelerde ve tırnaklarda sık görülür.
+    Diyabetik Dermopati: Bacaklarda ve kollarda kahverengi, oval lekeler şeklinde görülen zararsız bir cilt sorunudur.
+    Nekrobiyozis Lipoidika Diabeticorum: Parlak, kırmızı-kahverengi lekeler şeklinde başlayan ve zamanla sarımsı, ince derili lezyonlara dönüşen nadir bir cilt sorunudur.
+    Akanthosis Nigricans: Vücudun kıvrım yerlerinde (boyun, koltuk altı, kasıklar) derinin kalınlaşması ve koyulaşması ile karakterizedir. Genellikle insülin direnci ile ilişkilidir.
+    Kaşıntı: Özellikle kuru cilt, mantar enfeksiyonları veya dolaşım bozuklukları nedeniyle kaşıntı görülebilir.
+    Önlemler: Kan şekeri kontrolü, iyi cilt hijyeni, cildi nemlendirme ve kesiklerden kaçınma.
+
+Diyabetin Cinsel Sağlık Üzerindeki Etkileri
+
+Diyabet, hem erkeklerde hem de kadınlarda cinsel sağlık sorunlarına yol açabilir.
+
+    Erkeklerde Erektil Disfonksiyon (İktidarsızlık): Yüksek kan şekeri, penisteki kan damarlarına ve sinirlere zarar vererek ereksiyon sorunlarına yol açabilir.
+    Kadınlarda Cinsel İşlev Bozukluğu: Yüksek kan şekeri, vajinal kuruluk, azalan libido ve orgazm güçlüğü gibi sorunlara neden olabilir. Vajinal mantar enfeksiyonları da daha sık görülebilir.
+    Yönetim: Kan şekeri kontrolü, sağlıklı yaşam tarzı, stres yönetimi ve gerekli durumlarda tıbbi tedaviler (ilaçlar, danışmanlık) ile bu sorunlar yönetilebilir.
+
+Diyabet Eğitimi ve Kendi Kendine Yönetim
+
+Diyabet yönetiminde en önemli unsurlardan biri, hastanın kendi hastalığı hakkında bilgi sahibi olması ve günlük yönetimde aktif rol almasıdır.
+
+    Diyabet Eğitimi Programları: Hastalara beslenme, ilaç kullanımı, kan şekeri takibi, egzersiz, ayak bakımı, komplikasyonların önlenmesi ve stres yönetimi gibi konularda bilgi ve beceri kazandıran yapılandırılmış programlardır.
+    Kendi Kendine Kan Şekeri Takibi (KKŞT): Hastaların evde glikometre kullanarak kan şekeri seviyelerini düzenli olarak ölçmesidir. Bu veriler, tedavi planının ayarlanmasında ve hastanın kan şekeri dalgalanmalarını anlamasında kritik öneme sahiptir.
+    Karbonhidrat Sayımı: Özellikle insülin kullanan hastaların, yedikleri karbonhidrat miktarına göre insülin dozunu ayarlamayı öğrendikleri bir yöntemdir.
+    İlaç Uyumunun Önemi: Reçeteli ilaçların düzenli ve doğru şekilde kullanılması, kan şekeri kontrolünün sağlanması için hayati öneme sahiptir.
+    Acil Durum Planı: Hipoglisemi veya hiperglisemi gibi akut durumlar için hastanın ne yapması gerektiğini içeren bir planın olması.
