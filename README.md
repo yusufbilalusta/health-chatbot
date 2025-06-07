@@ -141,14 +141,17 @@ Bu yaklaşım, modelin halüsinasyon oluşturma riskini azaltır ve verilen bilg
 
 ## Arayüz Görüntüleri
 
-![Ana Sayfa](https://github.com/yusufbilalusta/health-chatbot/blob/main/screenshots/homepage.png)
+### Ana Sayfa
+![Ana Sayfa](./screenshots/anasayfa.png)
 
+### Intent Sınıflandırma
 ![Intent Sınıflandırma](./screenshots/intent.png)
 ![Intent Sınıflandırma](./screenshots/intent2.png)
 
+### Sağlık Bilgileri Sorgusu
 ![Sağlık Bilgileri Sorgusu](./screenshots/sorgu.png)
 
-
+### Model Performansı
 ![Model Performansı](./screenshots/performans1.png)
 ![Model Performansı](./screenshots/performans2.png)
 ![Model Performansı](./screenshots/performans3.png)
