@@ -1,5 +1,8 @@
 import os
 import glob
+import time
+import shutil
+import uuid
 from langchain_community.document_loaders import TextLoader, PyPDFLoader, CSVLoader
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
@@ -20,7 +23,14 @@ class RAGEngine:
             model_type (str): The model type to use for embeddings (Gemini or OpenAI)
         """
         self.model_type = model_type
-        self.persist_directory = f"./chroma_db_health_{model_type.lower()}"
+        
+        # Kullanıcının yazma izni olan bir dizin kullanmak için kullanıcının ev dizininde oluşturalım
+        user_home = os.path.expanduser("~")
+        self.base_dir = os.path.join(user_home, ".health_chatbot_db")
+        os.makedirs(self.base_dir, exist_ok=True)
+        
+        # Her model için benzersiz bir dizin oluşturuyoruz
+        self.persist_directory = os.path.join(self.base_dir, f"chroma_db_health_{model_type.lower()}")
         
         # Set up embeddings based on model type
         if model_type == "Gemini":
@@ -47,15 +57,46 @@ class RAGEngine:
             self._create_vector_store()
         else:
             # Load existing vector store
-            self.vectorstore = Chroma(
-                persist_directory=self.persist_directory,
-                embedding_function=self.embeddings
-            )
+            try:
+                self.vectorstore = Chroma(
+                    persist_directory=self.persist_directory,
+                    embedding_function=self.embeddings
+                )
+            except Exception as e:
+                print(f"Veritabanı açılırken hata oluştu: {str(e)}")
+                print("Veritabanı yeniden oluşturuluyor...")
+                self._relocate_database()
+                self._create_vector_store()
+    
+    def _relocate_database(self):
+        """
+        Veritabanını tamamen yeni bir konuma taşı
+        """
+        # Benzersiz bir ID oluştur
+        unique_id = str(uuid.uuid4())[:8]
+        timestamp = str(int(time.time()))
+        
+        # Yeni dizin yolu oluştur
+        new_directory = os.path.join(
+            self.base_dir, 
+            f"chroma_db_health_{self.model_type.lower()}_{timestamp}_{unique_id}"
+        )
+        
+        print(f"Veritabanı yeni konuma taşınıyor: {new_directory}")
+        self.persist_directory = new_directory
+        
+        # Yeni dizini oluştur
+        os.makedirs(self.persist_directory, exist_ok=True)
+        
+        return self.persist_directory
     
     def _create_vector_store(self):
         """
         Create a vector store from documents in the data/rag_corpus directory
         """
+        # Dizini oluştur (izin sorunlarını önlemek için)
+        os.makedirs(self.persist_directory, exist_ok=True)
+        
         # Load documents
         documents = self._load_documents()
         
@@ -79,7 +120,7 @@ class RAGEngine:
             persist_directory=self.persist_directory
         )
         
-        print(f"Vector store created with {len(splits)} chunks")
+        print(f"Vector store created with {len(splits)} chunks in {self.persist_directory}")
     
     def _load_documents(self):
         """
@@ -148,12 +189,22 @@ class RAGEngine:
         """
         Rebuild the vector store from documents in the data/rag_corpus directory
         """
-        # Remove existing vector store
-        if os.path.exists(self.persist_directory):
-            import shutil
-            shutil.rmtree(self.persist_directory)
+        try:
+            # Veritabanını tamamen yeni bir konuma taşı
+            new_directory = self._relocate_database()
+            print(f"Yeni veritabanı dizini: {new_directory}")
+            
+            # Yeni vector store oluştur
+            self._create_vector_store()
+            
+            try:
+                chunk_count = len(self.vectorstore.get()["ids"])
+                print(f"Veritabanı başarıyla oluşturuldu, {chunk_count} adet chunk içeriyor.")
+                return chunk_count
+            except Exception as e:
+                print(f"Veritabanı oluşturuldu fakat boyut bilgisi alınamadı: {str(e)}")
+                return "Veritabanı oluşturuldu fakat boyut bilgisi alınamadı"
         
-        # Create new vector store
-        self._create_vector_store()
-        
-        return len(self.vectorstore.get()["ids"]) 
+        except Exception as e:
+            print(f"Veritabanı yeniden oluşturulurken hata: {str(e)}")
+            raise e 

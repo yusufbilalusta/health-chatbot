@@ -1,4 +1,0 @@
-Model,Precision,Recall,F1 Score,Avg Response Time (s)
-Intent Classifier,1.0,1.0,1.0,0.02281543186732701
-OpenAI,1.0,1.0,1.0,1.1125849996294295
-Gemini,1.0,1.0,1.0,0.8685832023620605

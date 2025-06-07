@@ -64,7 +64,7 @@ with st.sidebar:
     st.session_state.model_option = model_option
     
     # Option to retrain intent classifier
-    if st.button("Intent Classifier'ı Yeniden Eğit"):
+    if st.button("Intent Classifier'ı Yeniden Eğit", key="retrain_intent_classifier_button"):
         with st.spinner("Intent Classifier eğitiliyor..."):
             try:
                 classifier = IntentClassifier()
@@ -141,24 +141,6 @@ with st.sidebar:
             
             except Exception as e:
                 st.error(f"Eğitim sırasında hata oluştu: {str(e)}")
-    
-    # Option to rebuild RAG index
-    if st.button("RAG Veritabanını Yeniden Oluştur"):
-        with st.spinner("RAG veritabanı yeniden oluşturuluyor..."):
-            try:
-                # Create/rebuild Gemini RAG engine
-                rag_engine_gemini = RAGEngine(model_type="Gemini")
-                chunks_count_gemini = rag_engine_gemini.rebuild_vector_store()
-                st.session_state.rag_engine_gemini = rag_engine_gemini
-                
-                # Create/rebuild OpenAI RAG engine
-                rag_engine_openai = RAGEngine(model_type="OpenAI")
-                chunks_count_openai = rag_engine_openai.rebuild_vector_store()
-                st.session_state.rag_engine_openai = rag_engine_openai
-                
-                st.success(f"RAG veritabanları başarıyla yeniden oluşturuldu!\nGemini: {chunks_count_gemini} chunk\nOpenAI: {chunks_count_openai} chunk")
-            except Exception as e:
-                st.error(f"RAG veritabanı oluşturulurken hata: {str(e)}")
 
     # Display API key information
     st.subheader("API Anahtarları")
@@ -331,101 +313,81 @@ with st.expander("Model Performans Karşılaştırması"):
     st.write("""
     ### Model Performansı Karşılaştırması
     
-    Aşağıdaki metriklerle değerlendirme yapılmıştır:
+    Bu bölümde modellerin performans karşılaştırmasını görebilirsiniz. Model karşılaştırma 
+    testi yapmak için aşağıdaki butona tıklayın.
     
+    Karşılaştırma şu metriklerle yapılır:
     - Precision (Kesinlik)
     - Recall (Duyarlılık)
     - F1 Score
     - Confusion Matrix (Karışıklık Matrisi)
-    
-    Intent Classifier'ı yeniden eğiterek güncel metrikleri görebilirsiniz.
-    """)
-    
-    # Create a placeholder for performance metrics
-    if "performance_metrics" not in st.session_state:
-        st.session_state.performance_metrics = {
-            "Intent Classifier": {"precision": 0, "recall": 0, "f1_score": 0},
-            "OpenAI": {"precision": 0, "recall": 0, "f1_score": 0},
-            "Gemini": {"precision": 0, "recall": 0, "f1_score": 0}
-        }
-    
-    # Display performance metrics
-    metrics_df = pd.DataFrame.from_dict(st.session_state.performance_metrics, orient='index')
-    st.dataframe(metrics_df)
-    
-    st.write("""
-    Not: OpenAI ve Gemini modellerinin performans metrikleri, Intent Classifier'ın eğitim verileri üzerindeki performanslarını göstermektedir.
     """)
     
     # Button to run intent classification comparison test
-    if st.button("Model Karşılaştırma Testi Yap"):
-        with st.spinner("Model karşılaştırma testi yapılıyor..."):
+    if st.button("Model Karşılaştırma Testi Yap", key="model_compare_button"):
+        with st.spinner("Model karşılaştırma testi yapılıyor... Bu işlem biraz zaman alabilir."):
             try:
-                # Load test data
-                test_data = pd.read_csv("data/intents_dataset/health_intents.csv")
+                # Run the evaluation script
+                import subprocess
+                subprocess.run(["python", "evaluate_health_chatbot.py"], check=True)
                 
-                # Select a sample of the data for testing (to save API calls)
-                test_sample = test_data.sample(min(30, len(test_data)), random_state=42)
+                # Display the results
+                # 1. Load the CSV results
+                intent_comparison = pd.read_csv("intent_classification_comparison.csv")
+                rag_comparison = pd.read_csv("rag_performance_comparison.csv")
                 
-                # Initialize results
-                results = {
-                    "Intent Classifier": {"true": [], "pred": []},
-                    "OpenAI": {"true": [], "pred": []},
-                    "Gemini": {"true": [], "pred": []}
-                }
+                # 2. Display the intent classification results
+                st.subheader("Intent Sınıflandırma Sonuçları")
+                st.dataframe(intent_comparison)
                 
-                # Test Intent Classifier
-                if st.session_state.intent_classifier:
-                    for _, row in test_sample.iterrows():
-                        results["Intent Classifier"]["true"].append(row["Intent"])
-                        results["Intent Classifier"]["pred"].append(
-                            st.session_state.intent_classifier.predict(row["Text"])
-                        )
+                # 3. Display the RAG performance results
+                st.subheader("RAG Performans Sonuçları")
+                st.dataframe(rag_comparison)
                 
-                # Test OpenAI
-                if st.session_state.openai_model:
-                    for _, row in test_sample.iterrows():
-                        results["OpenAI"]["true"].append(row["Intent"])
-                        results["OpenAI"]["pred"].append(
-                            st.session_state.openai_model.classify_intent_with_prompt(row["Text"])
-                        )
+                # 4. Display the confusion matrices
+                st.subheader("Karışıklık Matrisleri")
                 
-                # Test Gemini
-                if st.session_state.gemini_model:
-                    for _, row in test_sample.iterrows():
-                        results["Gemini"]["true"].append(row["Intent"])
-                        results["Gemini"]["pred"].append(
-                            st.session_state.gemini_model.classify_intent_with_prompt(row["Text"])
-                        )
+                col1, col2, col3 = st.columns(3)
                 
-                # Calculate metrics
-                from sklearn.metrics import precision_score, recall_score, f1_score
+                with col1:
+                    if os.path.exists("confusion_matrix_Intent_Classifier.png"):
+                        st.image("confusion_matrix_Intent_Classifier.png", caption="Intent Classifier")
                 
-                for model in results:
-                    if results[model]["true"] and results[model]["pred"]:
-                        st.session_state.performance_metrics[model] = {
-                            "precision": precision_score(
-                                results[model]["true"], 
-                                results[model]["pred"], 
-                                average='weighted'
-                            ),
-                            "recall": recall_score(
-                                results[model]["true"], 
-                                results[model]["pred"], 
-                                average='weighted'
-                            ),
-                            "f1_score": f1_score(
-                                results[model]["true"], 
-                                results[model]["pred"], 
-                                average='weighted'
-                            )
-                        }
+                with col2:
+                    if os.path.exists("confusion_matrix_OpenAI.png"):
+                        st.image("confusion_matrix_OpenAI.png", caption="OpenAI")
                 
-                # Update the dataframe
-                metrics_df = pd.DataFrame.from_dict(st.session_state.performance_metrics, orient='index')
-                st.dataframe(metrics_df)
+                with col3:
+                    if os.path.exists("confusion_matrix_Gemini.png"):
+                        st.image("confusion_matrix_Gemini.png", caption="Gemini")
+                
+                # 5. Display the RAG response time comparison
+                st.subheader("RAG Yanıt Süresi Karşılaştırması")
+                if os.path.exists("rag_response_time_comparison.png"):
+                    st.image("rag_response_time_comparison.png")
                 
                 st.success("Model karşılaştırma testi tamamlandı!")
             
             except Exception as e:
                 st.error(f"Model karşılaştırma testi sırasında hata: {str(e)}")
+    
+    # Option to rebuild RAG index
+    if st.button("RAG Veritabanını Yeniden Oluştur", key="rebuild_rag_button"):
+        with st.spinner("RAG veritabanı yeniden oluşturuluyor..."):
+            try:
+                # Import the RAG engine
+                from retriever.rag_engine import RAGEngine
+                
+                # Create/rebuild Gemini RAG engine
+                rag_engine_gemini = RAGEngine(model_type="Gemini")
+                chunks_count_gemini = rag_engine_gemini.rebuild_vector_store()
+                st.session_state.rag_engine_gemini = rag_engine_gemini
+                
+                # Create/rebuild OpenAI RAG engine
+                rag_engine_openai = RAGEngine(model_type="OpenAI")
+                chunks_count_openai = rag_engine_openai.rebuild_vector_store()
+                st.session_state.rag_engine_openai = rag_engine_openai
+                
+                st.success(f"RAG veritabanları başarıyla yeniden oluşturuldu!\nGemini: {chunks_count_gemini} chunk\nOpenAI: {chunks_count_openai} chunk")
+            except Exception as e:
+                st.error(f"RAG veritabanı oluşturulurken hata: {str(e)}")
